@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "images": [
+    {
+      "profileName": "Azog, the Defiler",
+      "asset": "images/azogs-hunters/azog-the-defiler.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Azog%20the%20Defiler.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Azog%20the%20Defiler.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Azog the Defiler painted miniature — mounted on the white warg",
+      "variant": "Mounted on the White Warg",
+      "portraitCrop": [
+        90,
+        22,
+        86,
+        86
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "40e39532d8311329887b5176b8d275989dace3ef85b8329d7c1326cb02346ce9"
+    },
+    {
+      "profileName": "Bolg, Spawn of Azog",
+      "asset": "images/azogs-hunters/bolg-spawn-of-azog.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Bolg%2C%20Spawn%20of%20Azog.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Bolg%2C%20Spawn%20of%20Azog.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Bolg, Spawn of Azog painted miniature — on foot; earlier miniature sculpt",
+      "variant": "On foot; earlier miniature sculpt",
+      "portraitCrop": [
+        65,
+        8,
+        78,
+        78
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "8cafe6b14a8f8266bbbea17140c181eddcdb3ddb57b4cf7b03b25b4592fe36db"
+    },
+    {
+      "profileName": "Fell Warg",
+      "asset": "images/azogs-hunters/fell-warg.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Fell%20Warg.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Fell%20Warg.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Fell Warg painted miniature — unridden fell warg",
+      "variant": "Unridden Fell Warg",
+      "portraitCrop": [
+        101,
+        50,
+        96,
+        96
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "1a2d081060bdcf14f341f7d62c7fa42b0f33c1c79dd663033d8b558443041c43"
+    },
+    {
+      "profileName": "Fimbul, Hunter Orc Captain",
+      "asset": "images/azogs-hunters/fimbul-hunter-orc-captain.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Fimbul%2C%20Hunter%20Orc%20Captain.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Fimbul%2C%20Hunter%20Orc%20Captain.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Fimbul, Hunter Orc Captain painted miniature — mounted on a fell warg",
+      "variant": "Mounted on a Fell Warg",
+      "portraitCrop": [
+        48,
+        16,
+        85,
+        85
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "e084bda3e5fa575a9ef9a42327bd918708d761328c142bd8e17c994414b8897d"
+    },
+    {
+      "profileName": "Hunter Orc Captain",
+      "asset": "images/azogs-hunters/hunter-orc-captain.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Captain.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Captain.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Hunter Orc Captain painted miniature — mounted example",
+      "variant": "Mounted example",
+      "portraitCrop": [
+        69,
+        2,
+        74,
+        74
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "0ec8caa1fc346c3a9a25b27b8c0dd6c9859824e6d47c4150df7d45db5fd72855"
+    },
+    {
+      "profileName": "Hunter Orc Warg Rider",
+      "asset": "images/azogs-hunters/hunter-orc-warg-rider.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Warg%20Rider.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Warg%20Rider.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Hunter Orc Warg Rider painted miniature — mounted on a fell warg",
+      "variant": "Mounted on a Fell Warg",
+      "portraitCrop": [
+        66,
+        9,
+        83,
+        83
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "41e7f8760aaed7840c6008ce1dd7b17f62a66952b873dc586bd8d83ccb367a57"
+    },
+    {
+      "profileName": "Hunter Orc Warrior",
+      "asset": "images/azogs-hunters/hunter-orc-warrior.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Warrior.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Hunter%20Orc%20Warrior.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Hunter Orc Warrior painted miniature — on foot",
+      "variant": "On foot",
+      "portraitCrop": [
+        75,
+        24,
+        79,
+        79
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "28e728c1e83ee0fbbe9e7e42bb9d3702ca515819363eda798902665f242d2792"
+    },
+    {
+      "profileName": "Narzug, Hunter Orc Captain",
+      "asset": "images/azogs-hunters/narzug-hunter-orc-captain.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Narzug%2C%20Hunter%20Orc%20Captain.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Narzug%2C%20Hunter%20Orc%20Captain.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Narzug, Hunter Orc Captain painted miniature — on foot",
+      "variant": "On foot",
+      "portraitCrop": [
+        65,
+        24,
+        77,
+        77
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "ab05046d9004ab50a4a5a035992014ac89a30693b179c1698314ae13948129ff"
+    },
+    {
+      "profileName": "Yazneg, Hunter Orc Captain",
+      "asset": "images/azogs-hunters/yazneg-hunter-orc-captain.png",
+      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Yazneg%2C%20Hunter%20Orc%20Captain.png",
+      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/main/static-resources/images/profiles/Gundabad%20%26%20Dol%20Guldur/pictures/Yazneg%2C%20Hunter%20Orc%20Captain.png",
+      "credit": "Image via MESBG List Builder community repository",
+      "rights": "Reuse permission not independently verified; source attribution retained.",
+      "alt": "Yazneg, Hunter Orc Captain painted miniature — on foot",
+      "variant": "On foot",
+      "portraitCrop": [
+        64,
+        5,
+        77,
+        77
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-28",
+      "sha256": "c80578a16dd3968649a8aae6c13470c9f5afa98471f268db5a5bc15f882e8cd6"
+    }
+  ]
+}

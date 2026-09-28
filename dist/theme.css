@@ -1,0 +1,64 @@
+/* Palette from Warhammer Community: charcoal #181a1c, yellow #fbca1b,
+   grey #4f4f4f / #c2c2c2 / #e2e2e2, and white. */
+:root{--ink:#181a1c;--muted:#4f4f4f;--paper:#fff;--line:#e2e2e2;--green:#181a1c;--gold:#fbca1b;--accent:#181a1c}
+body{background:#fff;color:#181a1c}
+header{background:#181a1c;border-color:#4f4f4f;color:#fff}
+.brand .seal{color:#fbca1b}
+.brand small,.official{color:#fff}
+header .official #header-count{background:#fbca1b;color:#181a1c}
+header .menu{color:#fff}
+.sidebar{background:#f5f5f5;border-color:#e2e2e2}
+.roster-panel{background:#f5f5f5;border-color:#e2e2e2}
+#army-nav a.active{background:#fbca1b;border-left-color:#181a1c;color:#181a1c}
+#army-nav a:hover,.side-link:hover{background:#e2e2e2;color:#181a1c}
+#army-nav a.active:hover{background:#fbca1b}
+.side-filters{border-color:#c2c2c2;background:#fff}
+.side-filters button[aria-pressed=true]{background:#181a1c;color:#fff}
+.filters{background:#e2e2e2}
+.filters button[aria-pressed=true]{background:#181a1c;color:#fff;box-shadow:none}
+.search{background:#fff;border-color:#c2c2c2}
+.search input,#roster-name,#points-limit{color:#181a1c}
+input[type=checkbox]{accent-color:#181a1c}
+.profile-card{background:#fff;border-color:#e2e2e2}
+.profile-footer{background:#f5f5f5;border-color:#e2e2e2}
+.stats-grid{background:#e2e2e2;border-color:#e2e2e2}
+.stats-grid strong,.profile-price strong,.profile-name h3{color:#181a1c}
+.stats-grid abbr{color:#4f4f4f}
+.add-button{background:#fbca1b;color:#181a1c;border-color:#fbca1b;font-weight:600}
+.add-button:hover{background:#181a1c;color:#fff;border-color:#181a1c}
+.add-button:disabled{background:#e2e2e2;color:#4f4f4f;border-color:#e2e2e2}
+.count-badge{background:#e2e2e2;color:#181a1c}
+.warband-group{background:#fff;border-color:#c2c2c2}
+.warband-group summary{background:#e2e2e2;color:#181a1c}
+.warband-name{color:#181a1c}
+.warband-hero,.warband-empty,.roster-entry{border-color:#e2e2e2}
+.quantity-controls button{background:#fff;border-color:#c2c2c2;color:#181a1c}
+.quantity-controls button:hover:not(:disabled){background:#fbca1b;border-color:#fbca1b}
+.clear-button{border-color:#181a1c;color:#181a1c}
+.clear-button:hover:not(:disabled){background:#181a1c;color:#fff}
+.points-track{background:#e2e2e2}
+.points-track>div{background:#fbca1b}
+.points-track .over{background:#a13f36}
+#toast{background:#181a1c;color:#fff;border-left:4px solid #fbca1b}
+dialog{background:#fff;color:#181a1c;border-color:#c2c2c2}
+dialog::backdrop{background:#0009}
+.dialog-actions button{background:#fff;color:#181a1c;border-color:#c2c2c2}
+.dialog-actions button:last-child{background:#fbca1b;color:#181a1c;border-color:#fbca1b}
+.warband-choice{background:#f5f5f5;color:#181a1c;border-color:#c2c2c2}
+.warband-choice:hover{background:#fbca1b;color:#181a1c;border-color:#fbca1b}
+.warband-choice small{color:#4f4f4f}
+#warband-dialog select,#warband-dialog input{background:#fff;color:#181a1c;border-color:#c2c2c2}
+.library-label,.nav-label,.edition,.sidebar-foot p,.legacy-toggle,.army-meta,.breadcrumb,.profile-role,.profile-tags,.profile-price small,.profile-footer>span,.profile-details summary,.details-content,.details-content h4,.data-source,.data-source h3,.roster-title .eyebrow,.roster-name-label,.roster-total>span,.roster-total label,.roster-summary,#roster-army,.roster-entry p,.roster-entry-top small,.draft-note,.roster-empty,.roster-empty span,.warband-label,.warband-capacity,.warband-hero p,.warband-hero button,.warband-empty,.miniature-photo figcaption,.miniature-photo .image-credit,footer p{color:#4f4f4f}
+.eyebrow{color:#181a1c}
+#roster-warnings,.unassigned-group{color:#715500}
+.unassigned-group{border-color:#fbca1b;background:#fff9df}
+.unassigned-group>p{color:#715500}
+.over,#add-warband-error,#warband-dialog-error{color:#a13f36!important}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #181a1c;outline-offset:3px}
+header a:focus-visible,header button:focus-visible{outline-color:#fbca1b}
+
+/* Fantasy wordmark */
+header .brand{display:flex;align-items:center;min-width:0;flex:none}
+header .brand img{display:block;width:230px;height:auto;max-width:100%}
+@media(max-width:650px){header .brand img{width:190px}}
+@media(max-width:480px){header .brand{flex:1;min-width:0}header .brand img{width:min(190px,100%)}}
