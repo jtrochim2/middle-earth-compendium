@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/azog.png",
+  "sourceTitle": "Supplied photo: Azog",
+  "sourceSha256": "a72f8d99e7744d5ec4bfffb26e5e96c92f01e3eb180e2e132e13fdd522c729f7",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": ["Azog, the Defiler"],
+      "rect": [0, 160, 680, 840],
+      "portraitRect": [230, 264, 400, 434]
+    }
+  ]
+}

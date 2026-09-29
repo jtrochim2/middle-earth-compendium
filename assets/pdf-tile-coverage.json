@@ -11,13 +11,18 @@
       "squareTiles": 139
     },
     {
+      "book": "Supplied photo: Azog",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
       "book": "Supplied photo: Mauhúr & Vraskû",
       "profiles": 2,
       "squareTiles": 2
     }
   ],
-  "squareTiles": 269,
-  "updatedProfiles": 307,
+  "squareTiles": 270,
+  "updatedProfiles": 308,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-312",
@@ -30,10 +35,6 @@
     {
       "id": "heroes-20",
       "name": "Ashrak"
-    },
-    {
-      "id": "heroes-247",
-      "name": "Azog, the Defiler"
     },
     {
       "id": "heroes-287",
