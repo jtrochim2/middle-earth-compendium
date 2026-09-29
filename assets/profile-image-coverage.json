@@ -1,0 +1,16 @@
+{
+  "sourceRevision": "7bac8cf84613548e02923ff5dc1d31d071563c32",
+  "missing": [],
+  "excluded": [
+    {
+      "id": "heroes-96",
+      "name": "No Hero (Sharkey)",
+      "reason": "Roster placeholder, not a miniature"
+    },
+    {
+      "id": "heroes-97",
+      "name": "No Hero (Spider)",
+      "reason": "Roster placeholder, not a miniature"
+    }
+  ]
+}

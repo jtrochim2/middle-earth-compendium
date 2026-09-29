@@ -1,0 +1,2724 @@
+{
+  "schemaVersion": 1,
+  "sourceFile": "MESBG Armies of The Lord of the Rings 2024.pdf",
+  "sourceTitle": "Armies of The Lord of the Rings (2024)",
+  "sourceSha256": "a9d29d70df881c53415dc8f56c325060b9855c5687d40dda50fae5a4c6a2cb0a",
+  "tileSize": 384,
+  "tiles": [
+    {
+      "profileNames": [
+        "Frodo Baggins"
+      ],
+      "page": 10,
+      "printedPage": 9,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        105.9,
+        76.7,
+        150.1,
+        120.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Samwise Gamgee"
+      ],
+      "page": 11,
+      "printedPage": 10,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        123.2,
+        94.5,
+        158.6,
+        129.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Meriadoc Brandybuck"
+      ],
+      "page": 12,
+      "printedPage": 11,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        113.0,
+        90.9,
+        148.4,
+        126.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Peregrin Took"
+      ],
+      "page": 12,
+      "printedPage": 11,
+      "rect": [
+        37,
+        396,
+        214,
+        573
+      ],
+      "portraitRect": [
+        104.5,
+        451.0,
+        139.9,
+        486.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Gandalf the Grey",
+        "Gandalf the Grey (Thorin's Company)"
+      ],
+      "page": 13,
+      "printedPage": 12,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        122.3,
+        79.4,
+        166.5,
+        123.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Aragorn (Strider)"
+      ],
+      "page": 14,
+      "printedPage": 13,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        109.9,
+        88.4,
+        154.1,
+        132.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Legolas Greenleaf"
+      ],
+      "page": 15,
+      "printedPage": 14,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        130.2,
+        79.6,
+        174.5,
+        123.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Gimli, Son of Gloin"
+      ],
+      "page": 16,
+      "printedPage": 15,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        112.3,
+        91.6,
+        156.5,
+        135.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Boromir of Gondor"
+      ],
+      "page": 17,
+      "printedPage": 16,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        112.6,
+        66.9,
+        156.8,
+        111.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Bill the Pony"
+      ],
+      "page": 18,
+      "printedPage": 17,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        59.0,
+        78.6,
+        112.1,
+        131.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Bilbo Baggins, Ageing Hobbit"
+      ],
+      "page": 19,
+      "printedPage": 18,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        265.9,
+        113.7,
+        311.7,
+        159.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Lobelia Sackville-Baggins"
+      ],
+      "page": 20,
+      "printedPage": 19,
+      "rect": [
+        37,
+        37,
+        214,
+        214
+      ],
+      "portraitRect": [
+        111.1,
+        92.5,
+        146.5,
+        127.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Farmer Maggot"
+      ],
+      "page": 21,
+      "printedPage": 20,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        152.6,
+        77.8,
+        196.8,
+        122.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Hamfast 'Gaffer' Gamgee"
+      ],
+      "page": 22,
+      "printedPage": 21,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        106.8,
+        85.9,
+        142.2,
+        121.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Rosie Cotton"
+      ],
+      "page": 22,
+      "printedPage": 21,
+      "rect": [
+        37,
+        420,
+        214,
+        597
+      ],
+      "portraitRect": [
+        107.6,
+        471.0,
+        142.9,
+        506.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Barliman Butterbur"
+      ],
+      "page": 23,
+      "printedPage": 22,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        128.6,
+        74.1,
+        172.8,
+        118.3
+      ]
+    },
+    {
+      "profileNames": [
+        "The Gatekeeper of Bree"
+      ],
+      "page": 23,
+      "printedPage": 22,
+      "rect": [
+        57.7,
+        396,
+        234.7,
+        573
+      ],
+      "portraitRect": [
+        125.6,
+        432.6,
+        169.8,
+        476.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Smeagol"
+      ],
+      "page": 24,
+      "printedPage": 23,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        116.2,
+        102.2,
+        155.1,
+        141.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Treebeard"
+      ],
+      "page": 25,
+      "printedPage": 24,
+      "rect": [
+        160.7,
+        37,
+        425.7,
+        302
+      ],
+      "portraitRect": [
+        240.5,
+        37,
+        333.2,
+        129.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Birchseed"
+      ],
+      "page": 27,
+      "printedPage": 26,
+      "rect": [
+        160.7,
+        37,
+        425.7,
+        302
+      ],
+      "portraitRect": [
+        258.4,
+        83.8,
+        351.1,
+        176.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Ent"
+      ],
+      "page": 28,
+      "printedPage": 27,
+      "rect": [
+        140.0,
+        37,
+        405.0,
+        302
+      ],
+      "portraitRect": [
+        226.1,
+        66.9,
+        318.9,
+        159.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Gwaihir"
+      ],
+      "page": 29,
+      "printedPage": 28,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        305.8,
+        111.0,
+        385.9,
+        191.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Great Eagle"
+      ],
+      "page": 30,
+      "printedPage": 29,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        73.3,
+        68.4,
+        135.2,
+        130.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Fledgeling Great Eagle"
+      ],
+      "page": 30,
+      "printedPage": 29,
+      "rect": [
+        37,
+        360,
+        214,
+        537
+      ],
+      "portraitRect": [
+        122.0,
+        392.4,
+        183.9,
+        454.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Theodred, Prince of Rohan"
+      ],
+      "page": 33,
+      "printedPage": 32,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        267.0,
+        97.3,
+        324.2,
+        154.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Eomer, Marshal of the Riddermark"
+      ],
+      "page": 34,
+      "printedPage": 33,
+      "rect": [
+        182.0,
+        37,
+        363.0,
+        218
+      ],
+      "portraitRect": [
+        234.5,
+        72.1,
+        288.8,
+        126.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Eowyn, Shieldmaiden of Rohan"
+      ],
+      "page": 35,
+      "printedPage": 34,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        278.0,
+        69.0,
+        346.7,
+        137.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Meriadoc Brandybuck, Esquire of Rohan"
+      ],
+      "page": 36,
+      "printedPage": 35,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        108.4,
+        94.4,
+        143.8,
+        129.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Gamling, Captain of Rohan"
+      ],
+      "page": 36,
+      "printedPage": 35,
+      "rect": [
+        37,
+        409,
+        214,
+        586
+      ],
+      "portraitRect": [
+        118.8,
+        480.7,
+        163.0,
+        524.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Hama, Captain of Rohan"
+      ],
+      "page": 37,
+      "printedPage": 36,
+      "rect": [
+        57.7,
+        37,
+        234.7,
+        214
+      ],
+      "portraitRect": [
+        125.8,
+        59.9,
+        170.0,
+        104.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Haleth, Son of Hama"
+      ],
+      "page": 37,
+      "printedPage": 36,
+      "rect": [
+        57.7,
+        384,
+        234.7,
+        561
+      ],
+      "portraitRect": [
+        129.7,
+        422.8,
+        174.0,
+        467.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Aldor, Rohan Archer"
+      ],
+      "page": 38,
+      "printedPage": 37,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        103.8,
+        71.7,
+        148.1,
+        116.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Haleth, Prince of Rohan"
+      ],
+      "page": 40,
+      "printedPage": 39,
+      "rect": [
+        37,
+        37,
+        214,
+        214
+      ],
+      "portraitRect": [
+        105.6,
+        64.9,
+        149.8,
+        109.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Hama, Prince of Rohan"
+      ],
+      "page": 40,
+      "printedPage": 39,
+      "rect": [
+        37,
+        421,
+        191,
+        575
+      ],
+      "portraitRect": [
+        107.9,
+        443.6,
+        146.3,
+        482.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Helm Hammerhand, Wraith of the Hornburg"
+      ],
+      "page": 45,
+      "printedPage": 44,
+      "rect": [
+        202.7,
+        37,
+        383.7,
+        218
+      ],
+      "portraitRect": [
+        272.8,
+        70.5,
+        318.0,
+        115.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Hera, The Bride of Death"
+      ],
+      "page": 46,
+      "printedPage": 45,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        250.6,
+        89.9,
+        307.9,
+        147.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Captain of Rohan"
+      ],
+      "page": 47,
+      "printedPage": 46,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        115.8,
+        72.6,
+        160.1,
+        116.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Warrior of Rohan"
+      ],
+      "page": 47,
+      "printedPage": 46,
+      "rect": [
+        57.7,
+        384,
+        234.7,
+        561
+      ],
+      "portraitRect": [
+        129.7,
+        433.1,
+        173.9,
+        477.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Rider of Rohan"
+      ],
+      "page": 48,
+      "printedPage": 47,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        102.0,
+        68.5,
+        155.1,
+        121.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Aragorn, King Elessar"
+      ],
+      "page": 50,
+      "printedPage": 49,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        97.1,
+        70.8,
+        141.3,
+        115.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Denethor, Steward of Gondor"
+      ],
+      "page": 51,
+      "printedPage": 50,
+      "rect": [
+        57.7,
+        37,
+        234.7,
+        214
+      ],
+      "portraitRect": [
+        125.5,
+        75.4,
+        169.7,
+        119.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Boromir, Captain of the White Tower"
+      ],
+      "page": 52,
+      "printedPage": 51,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        111.5,
+        119.0,
+        155.8,
+        163.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Faramir, Captain of Gondor"
+      ],
+      "page": 53,
+      "printedPage": 52,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        149.6,
+        68.0,
+        193.8,
+        112.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Gandalf the White"
+      ],
+      "page": 54,
+      "printedPage": 53,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        112.4,
+        66.7,
+        165.5,
+        119.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Peregrin Took, Guard of the Citadel"
+      ],
+      "page": 55,
+      "printedPage": 54,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        129.8,
+        83.4,
+        165.2,
+        118.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Irolas, Captain of the Guard"
+      ],
+      "page": 56,
+      "printedPage": 55,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        105.9,
+        72.8,
+        150.1,
+        117.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Madril, Captain of Ithilien"
+      ],
+      "page": 57,
+      "printedPage": 56,
+      "rect": [
+        57.7,
+        37,
+        234.7,
+        214
+      ],
+      "portraitRect": [
+        131.0,
+        62.3,
+        175.2,
+        106.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Damrod, Ranger of Ithilien"
+      ],
+      "page": 57,
+      "printedPage": 56,
+      "rect": [
+        57.7,
+        397,
+        234.7,
+        574
+      ],
+      "portraitRect": [
+        132.2,
+        415.8,
+        176.5,
+        460.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Ranger of Gondor"
+      ],
+      "page": 58,
+      "printedPage": 57,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        102.8,
+        76.2,
+        147.0,
+        120.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Osgiliath Veteran"
+      ],
+      "page": 58,
+      "printedPage": 57,
+      "rect": [
+        37,
+        384,
+        214,
+        561
+      ],
+      "portraitRect": [
+        94.4,
+        422.7,
+        138.7,
+        467.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Captain of Minas Tirith"
+      ],
+      "page": 59,
+      "printedPage": 58,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        117.7,
+        75.4,
+        161.9,
+        119.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Warrior of Minas Tirith"
+      ],
+      "page": 60,
+      "printedPage": 59,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        103.4,
+        61.7,
+        147.6,
+        105.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Knight of Minas Tirith"
+      ],
+      "page": 60,
+      "printedPage": 59,
+      "rect": [
+        37,
+        408,
+        214,
+        585
+      ],
+      "portraitRect": [
+        99.0,
+        429.9,
+        152.1,
+        483.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Gondor Battlecry Trebuchet"
+      ],
+      "page": 62,
+      "printedPage": 61,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        158.0,
+        128.1,
+        226.7,
+        196.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Elendil, High King of Gondor and Arnor"
+      ],
+      "page": 63,
+      "printedPage": 62,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        132.9,
+        75.8,
+        177.2,
+        120.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Isildur, Prince of Numenor"
+      ],
+      "page": 64,
+      "printedPage": 63,
+      "rect": [
+        37,
+        37,
+        214,
+        214
+      ],
+      "portraitRect": [
+        119.7,
+        72.8,
+        163.9,
+        117.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Captain of Numenor"
+      ],
+      "page": 65,
+      "printedPage": 64,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        129.9,
+        79.3,
+        174.2,
+        123.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Warrior of Numenor"
+      ],
+      "page": 65,
+      "printedPage": 64,
+      "rect": [
+        57.7,
+        360,
+        234.7,
+        537
+      ],
+      "portraitRect": [
+        128.8,
+        397.5,
+        173.1,
+        441.8
+      ]
+    },
+    {
+      "profileNames": [
+        "The King of the Dead"
+      ],
+      "page": 66,
+      "printedPage": 65,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        96.3,
+        58.1,
+        140.5,
+        102.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Herald of the Dead"
+      ],
+      "page": 67,
+      "printedPage": 66,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        116.0,
+        102.9,
+        160.2,
+        147.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Warrior of the Dead"
+      ],
+      "page": 67,
+      "printedPage": 66,
+      "rect": [
+        57.7,
+        360,
+        234.7,
+        537
+      ],
+      "portraitRect": [
+        122.3,
+        406.9,
+        166.6,
+        451.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Rider of the Dead"
+      ],
+      "page": 68,
+      "printedPage": 67,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        99.8,
+        43.8,
+        152.9,
+        96.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Gil-Galad, High King of the Noldor"
+      ],
+      "page": 70,
+      "printedPage": 69,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        107.5,
+        99.2,
+        151.7,
+        143.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Elrond, Master of Rivendell"
+      ],
+      "page": 71,
+      "printedPage": 70,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        253.2,
+        66.9,
+        321.9,
+        135.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Arwen Undomiel"
+      ],
+      "page": 72,
+      "printedPage": 71,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        105.5,
+        85.0,
+        149.7,
+        129.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Cirdan of the Grey Havens"
+      ],
+      "page": 73,
+      "printedPage": 72,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        124.2,
+        77.7,
+        168.5,
+        122.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Lindir of Rivendell"
+      ],
+      "page": 74,
+      "printedPage": 73,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        103.3,
+        77.6,
+        147.5,
+        121.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Rivendell Captain"
+      ],
+      "page": 74,
+      "printedPage": 73,
+      "rect": [
+        37,
+        456,
+        214,
+        633
+      ],
+      "portraitRect": [
+        107.3,
+        501.1,
+        151.5,
+        545.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Rivendell Warrior"
+      ],
+      "page": 75,
+      "printedPage": 74,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        133.4,
+        96.5,
+        177.6,
+        140.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Rivendell Knight"
+      ],
+      "page": 75,
+      "printedPage": 74,
+      "rect": [
+        57.7,
+        372,
+        234.7,
+        549
+      ],
+      "portraitRect": [
+        117.9,
+        386.9,
+        171.0,
+        440.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Galadriel, Lady of Lothlorien"
+      ],
+      "page": 76,
+      "printedPage": 75,
+      "rect": [
+        170.0,
+        37,
+        375.0,
+        242
+      ],
+      "portraitRect": [
+        268.1,
+        79.5,
+        319.4,
+        130.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Celeborn, Lord of Lothlorien"
+      ],
+      "page": 77,
+      "printedPage": 76,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        275.0,
+        104.2,
+        332.2,
+        161.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Haldir, Galadhrim Captain"
+      ],
+      "page": 78,
+      "printedPage": 77,
+      "rect": [
+        37,
+        37,
+        214,
+        214
+      ],
+      "portraitRect": [
+        105.2,
+        87.7,
+        149.4,
+        131.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Galadhrim Captain"
+      ],
+      "page": 78,
+      "printedPage": 77,
+      "rect": [
+        37,
+        432,
+        214,
+        609
+      ],
+      "portraitRect": [
+        110.2,
+        469.8,
+        154.5,
+        514.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Galadhrim Warrior"
+      ],
+      "page": 79,
+      "printedPage": 78,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        126.7,
+        67.7,
+        170.9,
+        111.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Lothlorien Captain"
+      ],
+      "page": 80,
+      "printedPage": 79,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        101.7,
+        97.3,
+        145.9,
+        141.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Lothlorien Warrior"
+      ],
+      "page": 80,
+      "printedPage": 79,
+      "rect": [
+        37,
+        360,
+        214,
+        537
+      ],
+      "portraitRect": [
+        84.9,
+        391.6,
+        129.2,
+        435.9
+      ]
+    },
+    {
+      "profileNames": [
+        "The Dark Lord Sauron"
+      ],
+      "page": 140,
+      "printedPage": 139,
+      "rect": [
+        170.0,
+        37,
+        375.0,
+        242
+      ],
+      "portraitRect": [
+        266.4,
+        70.6,
+        327.9,
+        132.1
+      ]
+    },
+    {
+      "profileNames": [
+        "The Witch-King of Angmar B",
+        "The Witch-King of Angmar C"
+      ],
+      "page": 141,
+      "printedPage": 140,
+      "rect": [
+        134,
+        39,
+        357,
+        262
+      ],
+      "portraitRect": [
+        228.8,
+        62.2,
+        295.7,
+        129.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Ringwraith B",
+        "Ringwraith C"
+      ],
+      "page": 143,
+      "printedPage": 142,
+      "rect": [
+        149,
+        39,
+        372,
+        262
+      ],
+      "portraitRect": [
+        249.4,
+        118.9,
+        305.2,
+        174.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Gothmog, Lieutenant of Sauron"
+      ],
+      "page": 144,
+      "printedPage": 143,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        239.7,
+        39.6,
+        308.4,
+        108.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Guritz, Master of Reserves"
+      ],
+      "page": 145,
+      "printedPage": 144,
+      "rect": [
+        57.7,
+        37,
+        234.7,
+        214
+      ],
+      "portraitRect": [
+        124.8,
+        76.1,
+        169.0,
+        120.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Gothmog's Enforcer"
+      ],
+      "page": 145,
+      "printedPage": 144,
+      "rect": [
+        63,
+        433,
+        218,
+        588
+      ],
+      "portraitRect": [
+        133.8,
+        453.4,
+        172.5,
+        492.1
+      ]
+    },
+    {
+      "profileNames": [
+        "The Mouth of Sauron"
+      ],
+      "page": 146,
+      "printedPage": 145,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        241.6,
+        111.4,
+        298.8,
+        168.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Shelob"
+      ],
+      "page": 147,
+      "printedPage": 146,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        248.3,
+        111.2,
+        351.4,
+        214.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Shagrat, Captain of Cirith Ungol"
+      ],
+      "page": 148,
+      "printedPage": 147,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        227.8,
+        83.9,
+        285.1,
+        141.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Gorbag, Orc Captain"
+      ],
+      "page": 149,
+      "printedPage": 148,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        264.7,
+        110.3,
+        321.9,
+        167.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Orc Captain"
+      ],
+      "page": 150,
+      "printedPage": 149,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        111.7,
+        97.1,
+        155.9,
+        141.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Orc Taskmaster"
+      ],
+      "page": 150,
+      "printedPage": 149,
+      "rect": [
+        37,
+        384,
+        214,
+        561
+      ],
+      "portraitRect": [
+        94.1,
+        433.9,
+        138.3,
+        478.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Orc Drummer"
+      ],
+      "page": 151,
+      "printedPage": 150,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        118.8,
+        85.6,
+        163.0,
+        129.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Orc Warrior"
+      ],
+      "page": 151,
+      "printedPage": 150,
+      "rect": [
+        57.7,
+        372,
+        234.7,
+        549
+      ],
+      "portraitRect": [
+        128.4,
+        431.3,
+        172.6,
+        475.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Warg Rider"
+      ],
+      "page": 152,
+      "printedPage": 151,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        95.4,
+        75.6,
+        148.5,
+        128.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor War Catapult"
+      ],
+      "page": 153,
+      "printedPage": 152,
+      "rect": [
+        220.7,
+        37,
+        365.7,
+        182
+      ],
+      "portraitRect": [
+        249.7,
+        65.7,
+        336.7,
+        152.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Morannon Orc Captain"
+      ],
+      "page": 154,
+      "printedPage": 153,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        120.4,
+        71.4,
+        164.6,
+        115.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Morannon Orc Warrior"
+      ],
+      "page": 154,
+      "printedPage": 153,
+      "rect": [
+        37,
+        360,
+        214,
+        537
+      ],
+      "portraitRect": [
+        97.0,
+        389.4,
+        141.2,
+        433.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Uruk-hai Captain"
+      ],
+      "page": 155,
+      "printedPage": 154,
+      "rect": [
+        57.7,
+        37,
+        234.7,
+        214
+      ],
+      "portraitRect": [
+        137.5,
+        87.2,
+        181.7,
+        131.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Uruk-Hai"
+      ],
+      "page": 155,
+      "printedPage": 154,
+      "rect": [
+        57.7,
+        372,
+        234.7,
+        549
+      ],
+      "portraitRect": [
+        116.6,
+        428.7,
+        160.8,
+        472.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Troll Chieftain",
+        "Mordor Troll Chieftain Leader"
+      ],
+      "page": 156,
+      "printedPage": 155,
+      "rect": [
+        37,
+        37,
+        214,
+        214
+      ],
+      "portraitRect": [
+        108.7,
+        58.8,
+        170.6,
+        120.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Mordor Troll"
+      ],
+      "page": 156,
+      "printedPage": 155,
+      "rect": [
+        37,
+        396,
+        214,
+        573
+      ],
+      "portraitRect": [
+        98.6,
+        421.5,
+        160.6,
+        483.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Spectre"
+      ],
+      "page": 157,
+      "printedPage": 156,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        128.4,
+        75.0,
+        172.6,
+        119.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Easterling Captain"
+      ],
+      "page": 158,
+      "printedPage": 157,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        101.6,
+        72.3,
+        145.8,
+        116.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Easterling Warrior"
+      ],
+      "page": 158,
+      "printedPage": 157,
+      "rect": [
+        37,
+        408,
+        214,
+        585
+      ],
+      "portraitRect": [
+        103.4,
+        451.4,
+        147.6,
+        495.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Saruman"
+      ],
+      "page": 160,
+      "printedPage": 159,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        117.6,
+        80.9,
+        161.8,
+        125.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Grima Wormtongue"
+      ],
+      "page": 161,
+      "printedPage": 160,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        127.3,
+        87.2,
+        171.5,
+        131.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Lurtz, Uruk-hai Scout Captain"
+      ],
+      "page": 162,
+      "printedPage": 161,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        113.8,
+        82.3,
+        158.0,
+        126.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Ugluk, Uruk-hai Scout Captain"
+      ],
+      "page": 163,
+      "printedPage": 162,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        126.6,
+        73.3,
+        170.8,
+        117.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Grishnakh, Orc Captain"
+      ],
+      "page": 164,
+      "printedPage": 163,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        107.1,
+        85.7,
+        151.3,
+        129.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Snaga, Orc Captain"
+      ],
+      "page": 164,
+      "printedPage": 163,
+      "rect": [
+        37,
+        384,
+        214,
+        561
+      ],
+      "portraitRect": [
+        100.8,
+        427.0,
+        145.0,
+        471.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-Hai Scout Captain"
+      ],
+      "page": 165,
+      "printedPage": 164,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        127.6,
+        90.0,
+        171.8,
+        134.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-hai Scout"
+      ],
+      "page": 166,
+      "printedPage": 165,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        108.9,
+        87.4,
+        153.2,
+        131.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-Hai Drummer"
+      ],
+      "page": 166,
+      "printedPage": 165,
+      "rect": [
+        37,
+        396,
+        214,
+        573
+      ],
+      "portraitRect": [
+        101.6,
+        446.4,
+        145.9,
+        490.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-hai Berserker"
+      ],
+      "page": 167,
+      "printedPage": 166,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        121.4,
+        82.9,
+        165.7,
+        127.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-Hai Captain",
+        "Uruk-hai Captain Leader"
+      ],
+      "page": 168,
+      "printedPage": 167,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        96.2,
+        65.0,
+        140.4,
+        109.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Uruk-hai Warrior"
+      ],
+      "page": 168,
+      "printedPage": 167,
+      "rect": [
+        37,
+        384,
+        214,
+        561
+      ],
+      "portraitRect": [
+        108.7,
+        426.5,
+        152.9,
+        470.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Isengard Assault Ballista"
+      ],
+      "page": 169,
+      "printedPage": 168,
+      "rect": [
+        202.7,
+        37,
+        383.7,
+        218
+      ],
+      "portraitRect": [
+        229.8,
+        90.9,
+        338.4,
+        199.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Sharku, Warg Rider Captain"
+      ],
+      "page": 171,
+      "printedPage": 170,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        135.2,
+        58.0,
+        188.3,
+        111.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Isengard Warg Rider"
+      ],
+      "page": 172,
+      "printedPage": 171,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        97.2,
+        79.2,
+        150.3,
+        132.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Isengard Warg"
+      ],
+      "page": 172,
+      "printedPage": 171,
+      "rect": [
+        37,
+        372,
+        214,
+        549
+      ],
+      "portraitRect": [
+        136.1,
+        415.0,
+        198.1,
+        477.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Isengard Orc Captain"
+      ],
+      "page": 173,
+      "printedPage": 172,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        138.1,
+        90.4,
+        182.3,
+        134.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Isengard Orc Warrior"
+      ],
+      "page": 173,
+      "printedPage": 172,
+      "rect": [
+        57.7,
+        372,
+        234.7,
+        549
+      ],
+      "portraitRect": [
+        127.2,
+        419.1,
+        171.4,
+        463.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Crebain"
+      ],
+      "page": 174,
+      "printedPage": 173,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        180.9,
+        37,
+        364.1,
+        220.2
+      ]
+    },
+    {
+      "profileNames": [
+        "The Wild Man Oathmaker"
+      ],
+      "page": 175,
+      "printedPage": 174,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        129.1,
+        74.0,
+        173.3,
+        118.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Wild Man of Dunland"
+      ],
+      "page": 176,
+      "printedPage": 175,
+      "rect": [
+        37,
+        288,
+        214,
+        465
+      ],
+      "portraitRect": [
+        103.7,
+        336.7,
+        147.9,
+        380.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Wulf, High Lord of the Hill Tribes"
+      ],
+      "page": 178,
+      "printedPage": 177,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        237.3,
+        51.6,
+        306.0,
+        120.3
+      ]
+    },
+    {
+      "profileNames": [
+        "Freca, Lord of the West March"
+      ],
+      "page": 179,
+      "printedPage": 178,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        263.8,
+        89.6,
+        321.1,
+        146.9
+      ]
+    },
+    {
+      "profileNames": [
+        "General Targg"
+      ],
+      "page": 180,
+      "printedPage": 179,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        109.4,
+        81.4,
+        162.5,
+        134.5
+      ]
+    },
+    {
+      "profileNames": [
+        "Lord Thorne of the Wold"
+      ],
+      "page": 180,
+      "printedPage": 179,
+      "rect": [
+        37,
+        421,
+        214,
+        598
+      ],
+      "portraitRect": [
+        110.0,
+        456.7,
+        154.2,
+        500.9
+      ]
+    },
+    {
+      "profileNames": [
+        "Hill Tribesman"
+      ],
+      "page": 181,
+      "printedPage": 180,
+      "rect": [
+        57.7,
+        288,
+        234.7,
+        465
+      ],
+      "portraitRect": [
+        126.3,
+        331.2,
+        170.5,
+        375.4
+      ]
+    },
+    {
+      "profileNames": [
+        "Shank & Wrot, Orc Scavengers"
+      ],
+      "page": 183,
+      "printedPage": 182,
+      "rect": [
+        59,
+        205,
+        236,
+        382
+      ],
+      "portraitRect": [
+        116.5,
+        239.5,
+        160.8,
+        283.8
+      ]
+    },
+    {
+      "profileNames": [
+        "The Balrog"
+      ],
+      "page": 186,
+      "printedPage": 185,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        218.7,
+        96.8,
+        321.7,
+        199.8
+      ]
+    },
+    {
+      "profileNames": [
+        "The Watcher in the Water"
+      ],
+      "page": 187,
+      "printedPage": 186,
+      "rect": [
+        178.7,
+        37,
+        407.7,
+        266
+      ],
+      "portraitRect": [
+        253.8,
+        120.0,
+        356.9,
+        223.1
+      ]
+    },
+    {
+      "profileNames": [
+        "Moria Goblin Captain"
+      ],
+      "page": 189,
+      "printedPage": 188,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        109.0,
+        91.8,
+        153.2,
+        136.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Moria Goblin Warrior"
+      ],
+      "page": 189,
+      "printedPage": 188,
+      "rect": [
+        57.7,
+        372,
+        234.7,
+        549
+      ],
+      "portraitRect": [
+        130.4,
+        433.8,
+        174.6,
+        478.0
+      ]
+    },
+    {
+      "profileNames": [
+        "Cave Troll"
+      ],
+      "page": 190,
+      "printedPage": 189,
+      "rect": [
+        158.0,
+        37,
+        387.0,
+        266
+      ],
+      "portraitRect": [
+        235.9,
+        88.1,
+        316.0,
+        168.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Haradrim Chieftain"
+      ],
+      "page": 195,
+      "printedPage": 194,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        137.3,
+        89.9,
+        181.6,
+        134.2
+      ]
+    },
+    {
+      "profileNames": [
+        "Haradrim Warrior"
+      ],
+      "page": 196,
+      "printedPage": 195,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        113.5,
+        91.3,
+        157.8,
+        135.6
+      ]
+    },
+    {
+      "profileNames": [
+        "Corsair Captain",
+        "Corsair Captain Leader"
+      ],
+      "page": 197,
+      "printedPage": 196,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        127.3,
+        75.4,
+        171.6,
+        119.7
+      ]
+    },
+    {
+      "profileNames": [
+        "Corsair Bo'sun"
+      ],
+      "page": 198,
+      "printedPage": 197,
+      "rect": [
+        37,
+        36,
+        214,
+        213
+      ],
+      "portraitRect": [
+        101.7,
+        82.6,
+        145.9,
+        126.8
+      ]
+    },
+    {
+      "profileNames": [
+        "Corsair of Umbar"
+      ],
+      "page": 199,
+      "printedPage": 198,
+      "rect": [
+        57.7,
+        36,
+        234.7,
+        213
+      ],
+      "portraitRect": [
+        136.0,
+        88.9,
+        180.2,
+        133.1
+      ]
+    }
+  ],
+  "profilesWithoutDedicatedPhotos": [
+    {
+      "profileName": "Beechbone",
+      "pdfPage": 26,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Helm Hammerhand, King of Rohan",
+      "pdfPage": 39,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Hera, Daughter of Helm",
+      "pdfPage": 41,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Olwyn, Shieldmaiden of Rohan",
+      "pdfPage": 42,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Lief, Page of Helm",
+      "pdfPage": 43,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Frealaf, First Marshal of the Riddermark",
+      "pdfPage": 44,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Uruk-Hai Demolition Team",
+      "pdfPage": 170,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Wild Man Chieftain",
+      "pdfPage": 176,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Hill Tribes Chieftain",
+      "pdfPage": 181,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Shank & Wrot, Orc Scavengers",
+      "pdfPage": 183,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Mumak War Leader",
+      "pdfPage": 192,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "War Mumak of Harad",
+      "pdfPage": 193,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    },
+    {
+      "profileName": "Corsair Ballista",
+      "pdfPage": 200,
+      "reason": "Profile heading present, but no dedicated miniature photograph on this page."
+    }
+  ],
+  "portraitSize": 160
+}
