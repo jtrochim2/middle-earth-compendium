@@ -19,10 +19,15 @@
       "book": "Supplied photo: Mauhúr & Vraskû",
       "profiles": 2,
       "squareTiles": 2
+    },
+    {
+      "book": "Supplied photo: Yazneg",
+      "profiles": 1,
+      "squareTiles": 1
     }
   ],
-  "squareTiles": 270,
-  "updatedProfiles": 308,
+  "squareTiles": 271,
+  "updatedProfiles": 309,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-312",
@@ -659,10 +664,6 @@
     {
       "id": "heroes-221",
       "name": "Windlance"
-    },
-    {
-      "id": "heroes-249",
-      "name": "Yazneg, Hunter Orc Captain"
     },
     {
       "id": "heroes-351",

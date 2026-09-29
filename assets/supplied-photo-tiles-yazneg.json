@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/yazneg.png",
+  "sourceTitle": "Supplied photo: Yazneg",
+  "sourceSha256": "751742ff978e6b7f2fe4ee05d9b53c263f935c9742a17c236e4534d8879ea4a2",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": ["Yazneg, Hunter Orc Captain"],
+      "rect": [177, 190, 1057, 1070],
+      "portraitRect": [515, 200, 715, 400]
+    }
+  ]
+}
