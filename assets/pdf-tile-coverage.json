@@ -9,10 +9,15 @@
       "book": "Armies of The Lord of the Rings (2024)",
       "profiles": 168,
       "squareTiles": 139
+    },
+    {
+      "book": "Supplied photo: Mauhúr & Vraskû",
+      "profiles": 2,
+      "squareTiles": 2
     }
   ],
-  "squareTiles": 267,
-  "updatedProfiles": 305,
+  "squareTiles": 269,
+  "updatedProfiles": 307,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-312",
@@ -419,10 +424,6 @@
       "name": "Master of Lake-town"
     },
     {
-      "id": "heroes-16",
-      "name": "Mauhúr"
-    },
-    {
       "id": "heroes-329",
       "name": "Mirkwood Elf Captain"
     },
@@ -645,10 +646,6 @@
     {
       "id": "heroes-294",
       "name": "Troll Brute"
-    },
-    {
-      "id": "heroes-17",
-      "name": "Vraskû"
     },
     {
       "id": "heroes-377",

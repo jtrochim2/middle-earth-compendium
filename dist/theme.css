@@ -84,3 +84,9 @@ header .official{grid-column:3;grid-row:1;justify-self:end;margin-left:0}
 .profile-card .unit-thumbnail,.profile-header>.profile-portrait{align-self:stretch;width:116px;height:auto;min-height:116px;margin:-20px 4px -20px -20px;border-radius:0;background:#e2e2e2}
 .profile-card .unit-thumbnail{object-fit:cover;object-position:center 40%}
 @media(max-width:480px){.profile-card .unit-thumbnail,.profile-header>.profile-portrait{width:88px;min-height:88px;margin:-16px 2px -16px -16px}}
+/* Profile matches in the sidebar search: profile name, then one link per army. */
+.profile-match{margin:6px 0 12px}
+.profile-match-name{font-size:14px;font-weight:650;color:#181a1c;padding:4px 10px 2px}
+#army-nav .profile-match a{font-size:13px;padding:5px 10px 5px 18px;margin:1px 0;gap:8px;color:#4f4f4f}
+#army-nav .profile-match a>small{white-space:nowrap;text-align:right}
+#army-nav .profile-match a:hover{color:#181a1c}
