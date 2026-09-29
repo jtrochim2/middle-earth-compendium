@@ -18,7 +18,7 @@ All 548 miniature profiles have local photos, including shared photos for repeat
 
 Run `python3 scripts/import-profile-images.py` to validate and reapply the manifest. Existing local files are reused; missing files are downloaded and checked against the recorded hashes. `--refresh` downloads every source again. To extend the catalog using an upstream GitHub ZIP and its matching recursive tree JSON, run `python3 scripts/catalog-profile-images.py SOURCE.zip TREE.json` first. The catalog checks Git blob hashes and refuses ambiguous matches. Image pixels are retained; Beorn's bear photo is displayed through a CSS crop of its source card.
 
-This is an unofficial fan reference and is not affiliated with Games Workshop or Middle-earth Enterprises.
+This is a fan-made reference created for non-commercial purposes. It is not affiliated with or endorsed by Games Workshop or Middle-earth Enterprises. Miniature images and game rules are the property of Games Workshop Ltd.
 
 ## Square tiles from the supplied PDF
 
@@ -27,5 +27,7 @@ This is an unofficial fan reference and is not affiliated with Games Workshop or
 With `pymupdf` and `Pillow` installed, run `python3 scripts/import-pdf-tiles.py` (or pass `--pdf /path/to/file.pdf`). The importer checks the PDF hash and exact profile names, exports only the selected miniature photos into `dist/images/pdf-tiles/`, and adds book/page credits. The source PDF is not copied into the published site. Re-running the community importer preserves the PDF tiles. Each tile also has a `portraitRect` head-and-shoulders crop, exported as a 160 × 160 `-face.jpg` and used for the list thumbnail, while the full tile stays as the profile photo.
 
 `assets/lotr-pdf-profile-tiles.json` does the same for `MESBG Armies of The Lord of the Rings 2024.pdf`: 139 tiles for 168 profiles. Run `python3 scripts/import-pdf-tiles.py --manifest assets/lotr-pdf-profile-tiles.json`. Théoden keeps his existing white-background photo and face crop. Several profiles in this book (Beechbone, Helm Hammerhand, Héra, Olwyn, Lief, Fréaláf, the Uruk-hai Demolition Team, the Mûmaks and the Corsair Ballista) have no miniature photo in the book, so they keep their previous images. `Arnor & Angmar 2024.pdf` adds no new profiles: every profile it illustrates already has a 2025 tile.
+
+`assets/hobbit-pdf-profile-tiles.json` does the same for `MESBG Armies of the Hobbit (2024).pdf`: 99 tiles for 133 profiles. Run `python3 scripts/import-pdf-tiles.py --manifest assets/hobbit-pdf-profile-tiles.json`. Profiles that already had a tile from another book or a supplied photo are left as they were. Braga, Smaug, the Gundabad Catapult Troll and Bard's Family (Sigrid and Tilda) have only artwork in the book, and there is no Palace Guard profile on the site.
 
 The same importer also crops single photos: `assets/supplied-photo-tiles.json` (`"sourceType": "image"`, pixel rectangles) splits `assets/supplied-photos/mauhur-vrasku.png` into separate Mauhúr and Vraskû tiles. `assets/supplied-photo-tiles-azog.json` does the same for Azog, the Defiler from `assets/supplied-photos/azog.png`, using the model on foot. `assets/supplied-photo-tiles-yazneg.json` covers Yazneg, Hunter Orc Captain. Run `python3 scripts/import-pdf-tiles.py --manifest <manifest>` for each supplied-photo manifest.

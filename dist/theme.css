@@ -90,3 +90,4 @@ header .official{grid-column:3;grid-row:1;justify-self:end;margin-left:0}
 #army-nav .profile-match a{font-size:13px;padding:5px 10px 5px 18px;margin:1px 0;gap:8px;color:#4f4f4f}
 #army-nav .profile-match a>small{white-space:nowrap;text-align:right}
 #army-nav .profile-match a:hover{color:#181a1c}
+.sidebar-foot .fan-note{font-size:11px;line-height:1.6;margin-top:6px}

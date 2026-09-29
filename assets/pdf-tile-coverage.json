@@ -6,6 +6,11 @@
       "squareTiles": 128
     },
     {
+      "book": "Armies of The Hobbit (2024)",
+      "profiles": 133,
+      "squareTiles": 99
+    },
+    {
       "book": "Armies of The Lord of the Rings (2024)",
       "profiles": 168,
       "squareTiles": 139
@@ -26,13 +31,9 @@
       "squareTiles": 1
     }
   ],
-  "squareTiles": 271,
-  "updatedProfiles": 309,
+  "squareTiles": 370,
+  "updatedProfiles": 442,
   "profilesNeedingOtherSources": [
-    {
-      "id": "heroes-312",
-      "name": "Alfrid the Councillor"
-    },
     {
       "id": "heroes-56",
       "name": "Anborn, Ranger of Ithilien"
@@ -40,14 +41,6 @@
     {
       "id": "heroes-20",
       "name": "Ashrak"
-    },
-    {
-      "id": "heroes-287",
-      "name": "Balin the Dwarf"
-    },
-    {
-      "id": "heroes-290",
-      "name": "Balin the Dwarf, Champion of Erebor"
     },
     {
       "id": "heroes-41",
@@ -58,16 +51,8 @@
       "name": "Bandobras Took"
     },
     {
-      "id": "heroes-311",
-      "name": "Bard the Bowman"
-    },
-    {
       "id": "heroes-309",
       "name": "Beechbone"
-    },
-    {
-      "id": "heroes-357",
-      "name": "Beorn"
     },
     {
       "id": "heroes-358",
@@ -78,60 +63,12 @@
       "name": "Beorn the Bear"
     },
     {
-      "id": "heroes-386",
-      "name": "Bert the Troll"
-    },
-    {
-      "id": "heroes-292",
-      "name": "Bifur the Dwarf"
-    },
-    {
-      "id": "heroes-291",
-      "name": "Bifur the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-320",
-      "name": "Bilbo Baggins"
-    },
-    {
-      "id": "heroes-318",
-      "name": "Bilbo Baggins, Master Burglar"
-    },
-    {
-      "id": "heroes-385",
-      "name": "Bill the Troll"
-    },
-    {
       "id": "heroes-26",
       "name": "Black Guard Drummer"
     },
     {
-      "id": "heroes-295",
-      "name": "Bofur the Dwarf"
-    },
-    {
-      "id": "heroes-293",
-      "name": "Bofur the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-248",
-      "name": "Bolg, Spawn of Azog"
-    },
-    {
-      "id": "heroes-297",
-      "name": "Bombur the Dwarf"
-    },
-    {
-      "id": "heroes-296",
-      "name": "Bombur the Dwarf, Champion of Erebor"
-    },
-    {
       "id": "heroes-323",
       "name": "Braga, Captain of the Guard"
-    },
-    {
-      "id": "heroes-220",
-      "name": "Captain of Dale"
     },
     {
       "id": "heroes-27",
@@ -150,36 +87,12 @@
       "name": "Corsair Ballista"
     },
     {
-      "id": "heroes-208",
-      "name": "Dain Ironfoot, Lord of the Iron Hills"
-    },
-    {
-      "id": "heroes-270",
-      "name": "Dori the Dwarf"
-    },
-    {
-      "id": "heroes-269",
-      "name": "Dori the Dwarf, Champion of Erebor"
-    },
-    {
       "id": "heroes-39",
       "name": "Drár"
     },
     {
       "id": "heroes-12",
       "name": "Dunlending Chieftain"
-    },
-    {
-      "id": "heroes-284",
-      "name": "Dwalin the Dwarf"
-    },
-    {
-      "id": "heroes-283",
-      "name": "Dwalin the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-263",
-      "name": "Dwarf King"
     },
     {
       "id": "heroes-40",
@@ -190,28 +103,12 @@
       "name": "Eorl the Young"
     },
     {
-      "id": "heroes-264",
-      "name": "Erebor Dwarf Captain"
-    },
-    {
       "id": "heroes-48",
       "name": "Erestor"
     },
     {
       "id": "heroes-51",
       "name": "Erkenbrand, Captain of Rohan"
-    },
-    {
-      "id": "heroes-286",
-      "name": "Fili the Dwarf"
-    },
-    {
-      "id": "heroes-289",
-      "name": "Fili the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-251",
-      "name": "Fimbul, Hunter Orc Captain"
     },
     {
       "id": "heroes-42",
@@ -226,40 +123,12 @@
       "name": "Frída Tallspear"
     },
     {
-      "id": "heroes-306",
-      "name": "Galadriel, Lady of Light"
-    },
-    {
       "id": "heroes-49",
       "name": "Gildor Inglorion"
     },
     {
-      "id": "heroes-219",
-      "name": "Girion, Lord of Dale"
-    },
-    {
-      "id": "heroes-275",
-      "name": "Gloin the Dwarf"
-    },
-    {
-      "id": "heroes-274",
-      "name": "Gloin the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-262",
-      "name": "Goblin Captain"
-    },
-    {
-      "id": "heroes-278",
-      "name": "Goblin Mercenary Captain"
-    },
-    {
       "id": "heroes-1",
       "name": "Golfimbul, Orc Captain"
-    },
-    {
-      "id": "heroes-261",
-      "name": "Gollum"
     },
     {
       "id": "heroes-29",
@@ -274,16 +143,8 @@
       "name": "Great Beast of Gorgoroth"
     },
     {
-      "id": "heroes-353",
-      "name": "Grim Hammer Captain"
-    },
-    {
       "id": "heroes-53",
       "name": "Grimbold of Grimslade"
-    },
-    {
-      "id": "heroes-259",
-      "name": "Grinnah"
     },
     {
       "id": "heroes-21",
@@ -292,10 +153,6 @@
     {
       "id": "heroes-346",
       "name": "Gundabad Catapult Troll"
-    },
-    {
-      "id": "heroes-277",
-      "name": "Gundabad Orc Captain"
     },
     {
       "id": "heroes-10",
@@ -310,24 +167,8 @@
       "name": "Hera, Daughter of Helm"
     },
     {
-      "id": "heroes-317",
-      "name": "Hilda-Bianca"
-    },
-    {
       "id": "heroes-156",
       "name": "Hill Tribes Chieftain"
-    },
-    {
-      "id": "heroes-252",
-      "name": "Hunter Orc Captain"
-    },
-    {
-      "id": "heroes-345",
-      "name": "Iron Hills Ballista"
-    },
-    {
-      "id": "heroes-340",
-      "name": "Iron Hills Captain"
     },
     {
       "id": "heroes-25",
@@ -348,14 +189,6 @@
     {
       "id": "heroes-5",
       "name": "Khandish King (Leader)"
-    },
-    {
-      "id": "heroes-285",
-      "name": "Kili the Dwarf"
-    },
-    {
-      "id": "heroes-288",
-      "name": "Kili the Dwarf, Champion of Erebor"
     },
     {
       "id": "heroes-243",
@@ -394,18 +227,6 @@
       "name": "Knight of the White Tower"
     },
     {
-      "id": "heroes-322",
-      "name": "Lake-town Guard Captain"
-    },
-    {
-      "id": "heroes-321",
-      "name": "Lake-town Militia Captain"
-    },
-    {
-      "id": "heroes-326",
-      "name": "Legolas Greenleaf, Prince of Mirkwood"
-    },
-    {
       "id": "heroes-153",
       "name": "Lief, Page of Helm"
     },
@@ -424,18 +245,6 @@
     {
       "id": "heroes-7",
       "name": "Mahûd Tribesmaster"
-    },
-    {
-      "id": "heroes-339",
-      "name": "Master of Lake-town"
-    },
-    {
-      "id": "heroes-329",
-      "name": "Mirkwood Elf Captain"
-    },
-    {
-      "id": "heroes-330",
-      "name": "Mirkwood Ranger Captain"
     },
     {
       "id": "heroes-19",
@@ -462,76 +271,12 @@
       "name": "Múrin"
     },
     {
-      "id": "heroes-250",
-      "name": "Narzug, Hunter Orc Captain"
-    },
-    {
-      "id": "heroes-368",
-      "name": "Nazgul of Dol Guldur (Dark Headsman)"
-    },
-    {
-      "id": "heroes-367",
-      "name": "Nazgul of Dol Guldur (Khamul)"
-    },
-    {
-      "id": "heroes-371",
-      "name": "Nazgul of Dol Guldur (The Abyssal Knight)"
-    },
-    {
-      "id": "heroes-369",
-      "name": "Nazgul of Dol Guldur (The Forsaken)"
-    },
-    {
-      "id": "heroes-370",
-      "name": "Nazgul of Dol Guldur (The Lingering Shadow)"
-    },
-    {
-      "id": "heroes-372",
-      "name": "Nazgul of Dol Guldur (The Slayer of Men)"
-    },
-    {
-      "id": "heroes-366",
-      "name": "Nazgul of Dol Guldur (Witch King)"
-    },
-    {
-      "id": "heroes-268",
-      "name": "Nori the Dwarf"
-    },
-    {
-      "id": "heroes-267",
-      "name": "Nori the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-273",
-      "name": "Oin the Dwarf"
-    },
-    {
-      "id": "heroes-272",
-      "name": "Oin the Dwarf, Champion of Erebor"
-    },
-    {
       "id": "heroes-152",
       "name": "Olwyn, Shieldmaiden of Rohan"
     },
     {
-      "id": "heroes-266",
-      "name": "Ori the Dwarf"
-    },
-    {
-      "id": "heroes-265",
-      "name": "Ori the Dwarf, Champion of Erebor"
-    },
-    {
-      "id": "heroes-328",
-      "name": "Palace Guard Captain"
-    },
-    {
       "id": "heroes-316",
       "name": "Percy, Lake-town Archer"
-    },
-    {
-      "id": "heroes-338",
-      "name": "Radagast the Brown"
     },
     {
       "id": "heroes-3",
@@ -542,24 +287,12 @@
       "name": "Rivendell Stormcaller"
     },
     {
-      "id": "heroes-210",
-      "name": "Saruman the White"
-    },
-    {
-      "id": "heroes-365",
-      "name": "Sauron, the Necromancer"
-    },
-    {
       "id": "heroes-313",
       "name": "Sigrid"
     },
     {
       "id": "heroes-325",
       "name": "Smaug"
-    },
-    {
-      "id": "heroes-327",
-      "name": "Tauriel, Ranger of Mirkwood"
     },
     {
       "id": "heroes-31",
@@ -574,20 +307,8 @@
       "name": "The Dwimmerlaik"
     },
     {
-      "id": "heroes-258",
-      "name": "The Goblin King"
-    },
-    {
-      "id": "heroes-260",
-      "name": "The Goblin Scribe"
-    },
-    {
       "id": "heroes-9",
       "name": "The Golden King of Abrakhan"
-    },
-    {
-      "id": "heroes-373",
-      "name": "The Keeper of the Dungeons"
     },
     {
       "id": "heroes-30",
@@ -614,44 +335,12 @@
       "name": "Theoden, King of Rohan"
     },
     {
-      "id": "heroes-282",
-      "name": "Thorin Oakenshield"
-    },
-    {
-      "id": "heroes-281",
-      "name": "Thorin Oakenshield, King Under the Mountain"
-    },
-    {
-      "id": "heroes-388",
-      "name": "Thrain the Broken"
-    },
-    {
-      "id": "heroes-349",
-      "name": "Thrain, Son of Thror"
-    },
-    {
-      "id": "heroes-324",
-      "name": "Thranduil, King of the Woodland Realm"
-    },
-    {
-      "id": "heroes-348",
-      "name": "Thror, King Under the Mountain"
-    },
-    {
       "id": "heroes-15",
       "name": "Thrydan Wolfsbane"
     },
     {
       "id": "heroes-314",
       "name": "Tilda"
-    },
-    {
-      "id": "heroes-387",
-      "name": "Tom the Troll"
-    },
-    {
-      "id": "heroes-294",
-      "name": "Troll Brute"
     },
     {
       "id": "heroes-377",
@@ -662,48 +351,12 @@
       "name": "Wild Man Chieftain"
     },
     {
-      "id": "heroes-221",
-      "name": "Windlance"
-    },
-    {
-      "id": "heroes-351",
-      "name": "Young Balin the Dwarf"
-    },
-    {
-      "id": "heroes-352",
-      "name": "Young Dwalin the Dwarf"
-    },
-    {
-      "id": "heroes-350",
-      "name": "Young Thorin Oakenshield"
-    },
-    {
       "id": "heroes-28",
       "name": "Zagdush, Orc Captain"
     },
     {
       "id": "warriors-17",
       "name": "Abrakhan Merchant Guard"
-    },
-    {
-      "id": "warriors-104",
-      "name": "Alfrid the Councillor"
-    },
-    {
-      "id": "warriors-84",
-      "name": "Balin the Dwarf"
-    },
-    {
-      "id": "warriors-81",
-      "name": "Bifur the Dwarf"
-    },
-    {
-      "id": "warriors-80",
-      "name": "Bilbo Baggins"
-    },
-    {
-      "id": "warriors-58",
-      "name": "Bilbo Baggins, Master Burglar"
     },
     {
       "id": "warriors-4",
@@ -714,24 +367,12 @@
       "name": "Black Guard of Barad-dûr"
     },
     {
-      "id": "warriors-79",
-      "name": "Bofur the Dwarf"
-    },
-    {
-      "id": "warriors-78",
-      "name": "Bombur the Dwarf"
-    },
-    {
       "id": "warriors-60",
       "name": "Castellan of Dol Guldur"
     },
     {
       "id": "warriors-9",
       "name": "Corsair Reaver"
-    },
-    {
-      "id": "warriors-77",
-      "name": "Dori the Dwarf"
     },
     {
       "id": "warriors-19",
@@ -742,92 +383,20 @@
       "name": "Dunlending Warrior"
     },
     {
-      "id": "warriors-83",
-      "name": "Dwalin the Dwarf"
-    },
-    {
       "id": "warriors-22",
       "name": "Dweller in the Dark"
-    },
-    {
-      "id": "warriors-208",
-      "name": "Erebor Dwarf Warrior"
-    },
-    {
-      "id": "warriors-170",
-      "name": "Fell Warg"
     },
     {
       "id": "warriors-21",
       "name": "Feral Uruk-hai"
     },
     {
-      "id": "warriors-76",
-      "name": "Fili the Dwarf"
-    },
-    {
       "id": "warriors-2",
       "name": "Gildor Inglorion"
     },
     {
-      "id": "warriors-75",
-      "name": "Gloin the Dwarf"
-    },
-    {
-      "id": "warriors-186",
-      "name": "Goblin Mercenary"
-    },
-    {
-      "id": "warriors-174",
-      "name": "Goblin Warrior"
-    },
-    {
-      "id": "warriors-107",
-      "name": "Gollum"
-    },
-    {
-      "id": "warriors-207",
-      "name": "Grim Hammer Warrior"
-    },
-    {
-      "id": "warriors-184",
-      "name": "Gundabad Berserker"
-    },
-    {
-      "id": "warriors-168",
-      "name": "Gundabad Ogre"
-    },
-    {
-      "id": "warriors-183",
-      "name": "Gundabad Orc Warrior"
-    },
-    {
-      "id": "warriors-185",
-      "name": "Gundabad Troll"
-    },
-    {
       "id": "warriors-13",
       "name": "Half Troll"
-    },
-    {
-      "id": "warriors-130",
-      "name": "Hunter Orc Warg Rider"
-    },
-    {
-      "id": "warriors-165",
-      "name": "Hunter Orc Warrior"
-    },
-    {
-      "id": "warriors-101",
-      "name": "Iron Hills Chariot"
-    },
-    {
-      "id": "warriors-153",
-      "name": "Iron Hills Goat Rider"
-    },
-    {
-      "id": "warriors-152",
-      "name": "Iron Hills Warrior"
     },
     {
       "id": "warriors-10",
@@ -842,18 +411,6 @@
       "name": "Khandish Warrior"
     },
     {
-      "id": "warriors-74",
-      "name": "Kili the Dwarf"
-    },
-    {
-      "id": "warriors-196",
-      "name": "Lake-town Guard"
-    },
-    {
-      "id": "warriors-195",
-      "name": "Lake-town Militia"
-    },
-    {
       "id": "warriors-14",
       "name": "Mahûd Raider"
     },
@@ -866,24 +423,8 @@
       "name": "Man-at-arms of Dol Amroth"
     },
     {
-      "id": "warriors-199",
-      "name": "Mirkwood Elf Knight"
-    },
-    {
-      "id": "warriors-198",
-      "name": "Mirkwood Elf Warrior"
-    },
-    {
-      "id": "warriors-202",
-      "name": "Mirkwood Giant Spider"
-    },
-    {
       "id": "warriors-203",
       "name": "Mirkwood Hunting Spider"
-    },
-    {
-      "id": "warriors-200",
-      "name": "Mirkwood Ranger"
     },
     {
       "id": "warriors-26",
@@ -898,88 +439,20 @@
       "name": "Moria Blackshield Warrior"
     },
     {
-      "id": "warriors-64",
-      "name": "Nazgul of Dol Guldur (Dark Headsman)"
-    },
-    {
-      "id": "warriors-63",
-      "name": "Nazgul of Dol Guldur (Khamul)"
-    },
-    {
-      "id": "warriors-67",
-      "name": "Nazgul of Dol Guldur (The Abyssal Knight)"
-    },
-    {
-      "id": "warriors-65",
-      "name": "Nazgul of Dol Guldur (The Forsaken)"
-    },
-    {
-      "id": "warriors-66",
-      "name": "Nazgul of Dol Guldur (The Lingering Shadow)"
-    },
-    {
-      "id": "warriors-68",
-      "name": "Nazgul of Dol Guldur (The Slayer of Men)"
-    },
-    {
-      "id": "warriors-62",
-      "name": "Nazgul of Dol Guldur (Witch King)"
-    },
-    {
-      "id": "warriors-73",
-      "name": "Nori the Dwarf"
-    },
-    {
-      "id": "warriors-72",
-      "name": "Oin the Dwarf"
-    },
-    {
       "id": "warriors-25",
       "name": "Orc Tracker"
-    },
-    {
-      "id": "warriors-71",
-      "name": "Ori the Dwarf"
-    },
-    {
-      "id": "warriors-70",
-      "name": "Radagast the Brown"
     },
     {
       "id": "warriors-29",
       "name": "Rohan Outrider"
     },
     {
-      "id": "warriors-61",
-      "name": "Sauron, the Necromancer"
-    },
-    {
-      "id": "warriors-69",
-      "name": "The Keeper of the Dungeons"
-    },
-    {
-      "id": "warriors-102",
-      "name": "Thrain the Broken"
-    },
-    {
-      "id": "warriors-167",
-      "name": "Troll Brute"
-    },
-    {
       "id": "warriors-189",
       "name": "Uruk-Hai Demolition Team"
     },
     {
-      "id": "warriors-169",
-      "name": "War Bat"
-    },
-    {
       "id": "warriors-23",
       "name": "Warg Marauder"
-    },
-    {
-      "id": "warriors-160",
-      "name": "Warrior of Dale"
     },
     {
       "id": "warriors-16",
