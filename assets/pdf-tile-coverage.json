@@ -7,13 +7,23 @@
     },
     {
       "book": "Armies of The Hobbit (2024)",
-      "profiles": 133,
-      "squareTiles": 99
+      "profiles": 134,
+      "squareTiles": 100
     },
     {
       "book": "Armies of The Lord of the Rings (2024)",
       "profiles": 168,
       "squareTiles": 139
+    },
+    {
+      "book": "Legacies of Middle-earth: Forces of Evil (2025)",
+      "profiles": 55,
+      "squareTiles": 52
+    },
+    {
+      "book": "Legacies of Middle-earth: Forces of Good (2025)",
+      "profiles": 23,
+      "squareTiles": 21
     },
     {
       "book": "Supplied photo: Azog",
@@ -31,25 +41,9 @@
       "squareTiles": 1
     }
   ],
-  "squareTiles": 370,
-  "updatedProfiles": 442,
+  "squareTiles": 444,
+  "updatedProfiles": 521,
   "profilesNeedingOtherSources": [
-    {
-      "id": "heroes-56",
-      "name": "Anborn, Ranger of Ithilien"
-    },
-    {
-      "id": "heroes-20",
-      "name": "Ashrak"
-    },
-    {
-      "id": "heroes-41",
-      "name": "Balin the Dwarf, King of Moria"
-    },
-    {
-      "id": "heroes-361",
-      "name": "Bandobras Took"
-    },
     {
       "id": "heroes-309",
       "name": "Beechbone"
@@ -63,100 +57,20 @@
       "name": "Beorn the Bear"
     },
     {
-      "id": "heroes-26",
-      "name": "Black Guard Drummer"
-    },
-    {
       "id": "heroes-323",
       "name": "Braga, Captain of the Guard"
-    },
-    {
-      "id": "heroes-27",
-      "name": "Captain of the Black Guard"
-    },
-    {
-      "id": "heroes-11",
-      "name": "Castellan of Dol Guldur"
-    },
-    {
-      "id": "heroes-54",
-      "name": "Cirion, Lieutenant of Amon Barad"
     },
     {
       "id": "heroes-343",
       "name": "Corsair Ballista"
     },
     {
-      "id": "heroes-39",
-      "name": "Drár"
-    },
-    {
-      "id": "heroes-12",
-      "name": "Dunlending Chieftain"
-    },
-    {
-      "id": "heroes-40",
-      "name": "Dwarf Shieldbearer"
-    },
-    {
-      "id": "heroes-50",
-      "name": "Eorl the Young"
-    },
-    {
-      "id": "heroes-48",
-      "name": "Erestor"
-    },
-    {
-      "id": "heroes-51",
-      "name": "Erkenbrand, Captain of Rohan"
-    },
-    {
-      "id": "heroes-42",
-      "name": "Flói Stonehand"
-    },
-    {
       "id": "heroes-149",
       "name": "Frealaf, First Marshal of the Riddermark"
     },
     {
-      "id": "heroes-13",
-      "name": "Frída Tallspear"
-    },
-    {
-      "id": "heroes-49",
-      "name": "Gildor Inglorion"
-    },
-    {
-      "id": "heroes-1",
-      "name": "Golfimbul, Orc Captain"
-    },
-    {
-      "id": "heroes-29",
-      "name": "Goroth, Captain of the Morannon"
-    },
-    {
-      "id": "heroes-14",
-      "name": "Gorûlf Ironskin"
-    },
-    {
-      "id": "heroes-22",
-      "name": "Great Beast of Gorgoroth"
-    },
-    {
-      "id": "heroes-53",
-      "name": "Grimbold of Grimslade"
-    },
-    {
-      "id": "heroes-21",
-      "name": "Gróblog"
-    },
-    {
       "id": "heroes-346",
       "name": "Gundabad Catapult Troll"
-    },
-    {
-      "id": "heroes-10",
-      "name": "Haradrim King"
     },
     {
       "id": "heroes-300",
@@ -169,26 +83,6 @@
     {
       "id": "heroes-156",
       "name": "Hill Tribes Chieftain"
-    },
-    {
-      "id": "heroes-25",
-      "name": "Kardûsh the Firecaller"
-    },
-    {
-      "id": "heroes-37",
-      "name": "Khamûl the Easterling"
-    },
-    {
-      "id": "heroes-4",
-      "name": "Khandish Chieftain"
-    },
-    {
-      "id": "heroes-6",
-      "name": "Khandish King"
-    },
-    {
-      "id": "heroes-5",
-      "name": "Khandish King (Leader)"
     },
     {
       "id": "heroes-243",
@@ -211,48 +105,8 @@
       "name": "King of Men (Rohan)"
     },
     {
-      "id": "heroes-45",
-      "name": "King's Champion"
-    },
-    {
-      "id": "heroes-43",
-      "name": "King's Champion Group"
-    },
-    {
-      "id": "heroes-52",
-      "name": "King's Huntsman"
-    },
-    {
-      "id": "heroes-57",
-      "name": "Knight of the White Tower"
-    },
-    {
       "id": "heroes-153",
       "name": "Lief, Page of Helm"
-    },
-    {
-      "id": "heroes-47",
-      "name": "Lothlórien Stormcaller"
-    },
-    {
-      "id": "heroes-55",
-      "name": "Mablung, Ranger of Ithilien"
-    },
-    {
-      "id": "heroes-8",
-      "name": "Mahûd King"
-    },
-    {
-      "id": "heroes-7",
-      "name": "Mahûd Tribesmaster"
-    },
-    {
-      "id": "heroes-19",
-      "name": "Moria Blackshield Captain"
-    },
-    {
-      "id": "heroes-18",
-      "name": "Moria Blackshield Shaman"
     },
     {
       "id": "heroes-378",
@@ -263,28 +117,8 @@
       "name": "Mumak War Leader"
     },
     {
-      "id": "heroes-2",
-      "name": "Muzgûr, Orc Shaman"
-    },
-    {
-      "id": "heroes-38",
-      "name": "Múrin"
-    },
-    {
       "id": "heroes-152",
       "name": "Olwyn, Shieldmaiden of Rohan"
-    },
-    {
-      "id": "heroes-316",
-      "name": "Percy, Lake-town Archer"
-    },
-    {
-      "id": "heroes-3",
-      "name": "Razgush, War Leader of the North"
-    },
-    {
-      "id": "heroes-46",
-      "name": "Rivendell Stormcaller"
     },
     {
       "id": "heroes-313",
@@ -295,48 +129,8 @@
       "name": "Smaug"
     },
     {
-      "id": "heroes-31",
-      "name": "The Betrayer"
-    },
-    {
-      "id": "heroes-34",
-      "name": "The Dark Marshal"
-    },
-    {
-      "id": "heroes-35",
-      "name": "The Dwimmerlaik"
-    },
-    {
-      "id": "heroes-9",
-      "name": "The Golden King of Abrakhan"
-    },
-    {
-      "id": "heroes-30",
-      "name": "The Knight of Umbar"
-    },
-    {
-      "id": "heroes-33",
-      "name": "The Shadow Lord"
-    },
-    {
-      "id": "heroes-0",
-      "name": "The Spider Queen"
-    },
-    {
-      "id": "heroes-36",
-      "name": "The Tainted"
-    },
-    {
-      "id": "heroes-32",
-      "name": "The Undying"
-    },
-    {
       "id": "heroes-162",
       "name": "Theoden, King of Rohan"
-    },
-    {
-      "id": "heroes-15",
-      "name": "Thrydan Wolfsbane"
     },
     {
       "id": "heroes-314",
@@ -351,112 +145,12 @@
       "name": "Wild Man Chieftain"
     },
     {
-      "id": "heroes-28",
-      "name": "Zagdush, Orc Captain"
-    },
-    {
-      "id": "warriors-17",
-      "name": "Abrakhan Merchant Guard"
-    },
-    {
-      "id": "warriors-4",
-      "name": "Black Guard Drummer"
-    },
-    {
-      "id": "warriors-27",
-      "name": "Black Guard of Barad-dûr"
-    },
-    {
-      "id": "warriors-60",
-      "name": "Castellan of Dol Guldur"
-    },
-    {
-      "id": "warriors-9",
-      "name": "Corsair Reaver"
-    },
-    {
-      "id": "warriors-19",
-      "name": "Dunlending Horseman"
-    },
-    {
-      "id": "warriors-20",
-      "name": "Dunlending Warrior"
-    },
-    {
-      "id": "warriors-22",
-      "name": "Dweller in the Dark"
-    },
-    {
-      "id": "warriors-21",
-      "name": "Feral Uruk-hai"
-    },
-    {
-      "id": "warriors-2",
-      "name": "Gildor Inglorion"
-    },
-    {
-      "id": "warriors-13",
-      "name": "Half Troll"
-    },
-    {
-      "id": "warriors-10",
-      "name": "Khandish Charioteer"
-    },
-    {
-      "id": "warriors-11",
-      "name": "Khandish Horseman"
-    },
-    {
-      "id": "warriors-12",
-      "name": "Khandish Warrior"
-    },
-    {
-      "id": "warriors-14",
-      "name": "Mahûd Raider"
-    },
-    {
-      "id": "warriors-15",
-      "name": "Mahûd Warrior"
-    },
-    {
-      "id": "warriors-30",
-      "name": "Man-at-arms of Dol Amroth"
-    },
-    {
       "id": "warriors-203",
       "name": "Mirkwood Hunting Spider"
     },
     {
-      "id": "warriors-26",
-      "name": "Morgul Stalker"
-    },
-    {
-      "id": "warriors-7",
-      "name": "Moria Blackshield Drum"
-    },
-    {
-      "id": "warriors-24",
-      "name": "Moria Blackshield Warrior"
-    },
-    {
-      "id": "warriors-25",
-      "name": "Orc Tracker"
-    },
-    {
-      "id": "warriors-29",
-      "name": "Rohan Outrider"
-    },
-    {
       "id": "warriors-189",
       "name": "Uruk-Hai Demolition Team"
-    },
-    {
-      "id": "warriors-23",
-      "name": "Warg Marauder"
-    },
-    {
-      "id": "warriors-16",
-      "name": "Watcher of Kârna"
     }
   ]
 }

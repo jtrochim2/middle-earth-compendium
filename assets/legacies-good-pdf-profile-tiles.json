@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "sourceFile": "MESBG Legacies of Middle-earth - Forces of Good.pdf",
+  "sourceTitle": "Legacies of Middle-earth: Forces of Good (2025)",
+  "sourceSha256": "8d193b5c5c138c4ffb1989a12a970ee6da6516ebf67ead02db7c511456d5ba26",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Bandobras Took"
+      ],
+      "page": 2,
+      "rect": [
+        28,
+        8.1,
+        233.2,
+        213.3
+      ],
+      "portraitRect": [
+        139.9,
+        126.1,
+        177.1,
+        163.3
+      ],
+      "printedPage": 2
+    },
+    {
+      "profileNames": [
+        "Knight of the White Tower"
+      ],
+      "page": 3,
+      "rect": [
+        28,
+        26.0,
+        177.4,
+        175.4
+      ],
+      "portraitRect": [
+        101.7,
+        32.9,
+        150.3,
+        81.5
+      ],
+      "printedPage": 3
+    },
+    {
+      "profileNames": [
+        "Anborn, Ranger of Ithilien"
+      ],
+      "page": 3,
+      "rect": [
+        78.3,
+        398.7,
+        188.1,
+        508.5
+      ],
+      "portraitRect": [
+        116.8,
+        404.3,
+        149.3,
+        436.8
+      ],
+      "printedPage": 3
+    },
+    {
+      "profileNames": [
+        "Mablung, Ranger of Ithilien"
+      ],
+      "page": 4,
+      "rect": [
+        56.7,
+        40.3,
+        177.3,
+        160.9
+      ],
+      "portraitRect": [
+        111.2,
+        41.6,
+        151.4,
+        81.8
+      ],
+      "printedPage": 4
+    },
+    {
+      "profileNames": [
+        "Cirion, Lieutenant of Amon Barad"
+      ],
+      "page": 4,
+      "rect": [
+        74.6,
+        383.3,
+        176.1,
+        484.8
+      ],
+      "portraitRect": [
+        113.9,
+        383.3,
+        153.1,
+        422.5
+      ],
+      "printedPage": 4
+    },
+    {
+      "profileNames": [
+        "Man-at-arms of Dol Amroth"
+      ],
+      "page": 5,
+      "rect": [
+        57.4,
+        35.5,
+        217.2,
+        195.3
+      ],
+      "portraitRect": [
+        84.8,
+        61.5,
+        121.1,
+        97.8
+      ],
+      "printedPage": 5
+    },
+    {
+      "profileNames": [
+        "Grimbold of Grimslade"
+      ],
+      "page": 6,
+      "rect": [
+        54.0,
+        54.0,
+        172.0,
+        172.0
+      ],
+      "portraitRect": [
+        107.8,
+        56.8,
+        154.4,
+        103.4
+      ],
+      "printedPage": 6
+    },
+    {
+      "profileNames": [
+        "Erkenbrand, Captain of Rohan"
+      ],
+      "page": 7,
+      "rect": [
+        44.1,
+        38.7,
+        176.2,
+        170.8
+      ],
+      "portraitRect": [
+        108.2,
+        44.7,
+        156.1,
+        92.6
+      ],
+      "printedPage": 7
+    },
+    {
+      "profileNames": [
+        "King's Huntsman"
+      ],
+      "page": 8,
+      "rect": [
+        72.8,
+        50.7,
+        182.6,
+        160.5
+      ],
+      "portraitRect": [
+        113.0,
+        50.7,
+        151.0,
+        88.7
+      ],
+      "printedPage": 8
+    },
+    {
+      "profileNames": [
+        "Eorl the Young"
+      ],
+      "page": 9,
+      "rect": [
+        28.1,
+        31.9,
+        233.3,
+        237.1
+      ],
+      "portraitRect": [
+        52.5,
+        91.8,
+        85.3,
+        124.6
+      ],
+      "printedPage": 9
+    },
+    {
+      "profileNames": [
+        "Rohan Outrider"
+      ],
+      "page": 10,
+      "rect": [
+        28,
+        250.9,
+        212.3,
+        435.2
+      ],
+      "portraitRect": [
+        58.6,
+        264.2,
+        89.7,
+        295.3
+      ],
+      "printedPage": 10
+    },
+    {
+      "profileNames": [
+        "Gildor Inglorion"
+      ],
+      "page": 11,
+      "rect": [
+        73.0,
+        35.9,
+        178.3,
+        141.2
+      ],
+      "portraitRect": [
+        102.9,
+        35.9,
+        142.6,
+        75.6
+      ],
+      "printedPage": 11
+    },
+    {
+      "profileNames": [
+        "Erestor"
+      ],
+      "page": 12,
+      "rect": [
+        68.7,
+        42.1,
+        184.6,
+        158.0
+      ],
+      "portraitRect": [
+        108.6,
+        46.8,
+        143.1,
+        81.3
+      ],
+      "printedPage": 12
+    },
+    {
+      "profileNames": [
+        "Rivendell Stormcaller"
+      ],
+      "page": 13,
+      "rect": [
+        42.6,
+        30.5,
+        211.1,
+        199.0
+      ],
+      "portraitRect": [
+        109.6,
+        77.8,
+        150.9,
+        119.1
+      ],
+      "printedPage": 13
+    },
+    {
+      "profileNames": [
+        "Lothlórien Stormcaller"
+      ],
+      "page": 14,
+      "rect": [
+        43.3,
+        30.9,
+        210.0,
+        197.6
+      ],
+      "portraitRect": [
+        106.2,
+        79.1,
+        145.4,
+        118.3
+      ],
+      "printedPage": 14
+    },
+    {
+      "profileNames": [
+        "Balin the Dwarf, King of Moria"
+      ],
+      "page": 15,
+      "rect": [
+        91.5,
+        45.5,
+        172.8,
+        126.8
+      ],
+      "portraitRect": [
+        112.5,
+        45.5,
+        149.6,
+        82.6
+      ],
+      "printedPage": 15
+    },
+    {
+      "profileNames": [
+        "Flói Stonehand"
+      ],
+      "page": 15,
+      "rect": [
+        69.2,
+        392.8,
+        185.1,
+        508.7
+      ],
+      "portraitRect": [
+        106.5,
+        412.9,
+        149.9,
+        456.3
+      ],
+      "printedPage": 15
+    },
+    {
+      "profileNames": [
+        "King's Champion",
+        "King's Champion Group"
+      ],
+      "page": 16,
+      "rect": [
+        59.9,
+        147.7,
+        190.0,
+        277.8
+      ],
+      "portraitRect": [
+        105.5,
+        154.8,
+        144.6,
+        193.9
+      ],
+      "printedPage": 16
+    },
+    {
+      "profileNames": [
+        "Dwarf Shieldbearer"
+      ],
+      "page": 17,
+      "rect": [
+        69.6,
+        22.8,
+        187.3,
+        140.5
+      ],
+      "portraitRect": [
+        107.3,
+        62.5,
+        145.8,
+        101.0
+      ],
+      "printedPage": 17
+    },
+    {
+      "profileNames": [
+        "Múrin"
+      ],
+      "page": 18,
+      "rect": [
+        70.9,
+        135.7,
+        195.0,
+        259.8
+      ],
+      "portraitRect": [
+        124.2,
+        147.9,
+        148.7,
+        172.4
+      ],
+      "printedPage": 18
+    },
+    {
+      "profileNames": [
+        "Drár"
+      ],
+      "page": 18,
+      "rect": [
+        71.7,
+        387.2,
+        194.3,
+        509.8
+      ],
+      "portraitRect": [
+        106.1,
+        397.9,
+        150.7,
+        442.5
+      ],
+      "printedPage": 18
+    }
+  ]
+}
