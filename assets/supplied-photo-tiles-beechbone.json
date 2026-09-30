@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/beechbone.png",
+  "sourceTitle": "Warhammer Community: Beechbone is the biggest Ent in Fangorn Forest (2026)",
+  "sourceSha256": "f711f4c6b1870b32d339c5ae9541dfcdb73e8c4430b860d394dcdc6dc920900a",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Beechbone"
+      ],
+      "rect": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "portraitRect": [
+        519,
+        230,
+        689,
+        400
+      ]
+    }
+  ]
+}

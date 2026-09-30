@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/bards-family.png",
+  "sourceTitle": "Supplied photo: Bard's Family",
+  "sourceSha256": "39374219f3a6c77f973044a696196d34fcbd0ebb6980aacdeaabc8cee5e3fbca",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Sigrid"
+      ],
+      "rect": [
+        0,
+        0,
+        755,
+        755
+      ],
+      "portraitRect": [
+        515,
+        21,
+        635,
+        141
+      ]
+    },
+    {
+      "profileNames": [
+        "Tilda"
+      ],
+      "rect": [
+        0,
+        0,
+        755,
+        755
+      ],
+      "portraitRect": [
+        290,
+        273,
+        410,
+        393
+      ]
+    }
+  ]
+}

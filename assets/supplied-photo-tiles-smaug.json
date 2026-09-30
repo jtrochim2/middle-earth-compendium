@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/smaug.png",
+  "sourceTitle": "Warhammer Community: classic Middle-earth miniatures return (2021)",
+  "sourceSha256": "b1fac732978a69763c39e9d4afcedaaf1de5648ecaa930d0f245355fa404c6eb",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Smaug"
+      ],
+      "rect": [
+        0,
+        0,
+        1020,
+        1020
+      ],
+      "portraitRect": [
+        590,
+        472,
+        840,
+        722
+      ]
+    }
+  ]
+}

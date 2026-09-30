@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/gundabad-catapult-troll.png",
+  "sourceTitle": "Warhammer Community: Gundabad Catapult Troll (2026)",
+  "sourceSha256": "ec74f88b5280b66aea1915ef2c46f71420d3810c54d71bc0eec6743620c409b5",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Gundabad Catapult Troll"
+      ],
+      "rect": [
+        0,
+        0,
+        960,
+        960
+      ],
+      "portraitRect": [
+        470,
+        248,
+        730,
+        508
+      ]
+    }
+  ]
+}

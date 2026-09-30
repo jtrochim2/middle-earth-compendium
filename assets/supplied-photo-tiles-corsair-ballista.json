@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/corsair-ballista.png",
+  "sourceTitle": "Warhammer Community: War Drakes of Rhûn and the Umbar Ballista (2026)",
+  "sourceSha256": "f67331f9ed1b593b6e18f9a5df2d772b32d7acf01a8cf981e7ffb27c214e3f20",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Corsair Ballista"
+      ],
+      "rect": [
+        0,
+        0,
+        870,
+        870
+      ],
+      "portraitRect": [
+        265,
+        329,
+        585,
+        649
+      ]
+    }
+  ]
+}

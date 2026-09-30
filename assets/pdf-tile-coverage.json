@@ -31,7 +31,17 @@
       "squareTiles": 1
     },
     {
+      "book": "Supplied photo: Bard's Family",
+      "profiles": 2,
+      "squareTiles": 2
+    },
+    {
       "book": "Supplied photo: Hill Tribes Chieftain",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
+      "book": "Supplied photo: Lake-town Guard Captain (as Braga)",
       "profiles": 1,
       "squareTiles": 1
     },
@@ -61,9 +71,19 @@
       "squareTiles": 1
     },
     {
+      "book": "Warhammer Community: Beechbone is the biggest Ent in Fangorn Forest (2026)",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
       "book": "Warhammer Community: Fréaláf Hildeson and Olwyn (2025)",
       "profiles": 3,
       "squareTiles": 3
+    },
+    {
+      "book": "Warhammer Community: Gundabad Catapult Troll (2026)",
+      "profiles": 1,
+      "squareTiles": 1
     },
     {
       "book": "Warhammer Community: Héra, Daughter of Helm Hammerhand (2024)",
@@ -74,15 +94,21 @@
       "book": "Warhammer Community: King Helm and the first Middle-earth Journal (2025)",
       "profiles": 1,
       "squareTiles": 1
+    },
+    {
+      "book": "Warhammer Community: War Drakes of Rhûn and the Umbar Ballista (2026)",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
+      "book": "Warhammer Community: classic Middle-earth miniatures return (2021)",
+      "profiles": 1,
+      "squareTiles": 1
     }
   ],
-  "squareTiles": 452,
-  "updatedProfiles": 529,
+  "squareTiles": 459,
+  "updatedProfiles": 536,
   "profilesNeedingOtherSources": [
-    {
-      "id": "heroes-309",
-      "name": "Beechbone"
-    },
     {
       "id": "heroes-358",
       "name": "Beorn (Man)"
@@ -90,18 +116,6 @@
     {
       "id": "heroes-359",
       "name": "Beorn the Bear"
-    },
-    {
-      "id": "heroes-323",
-      "name": "Braga, Captain of the Guard"
-    },
-    {
-      "id": "heroes-343",
-      "name": "Corsair Ballista"
-    },
-    {
-      "id": "heroes-346",
-      "name": "Gundabad Catapult Troll"
     },
     {
       "id": "heroes-243",
@@ -124,20 +138,8 @@
       "name": "King of Men (Rohan)"
     },
     {
-      "id": "heroes-313",
-      "name": "Sigrid"
-    },
-    {
-      "id": "heroes-325",
-      "name": "Smaug"
-    },
-    {
       "id": "heroes-162",
       "name": "Theoden, King of Rohan"
-    },
-    {
-      "id": "heroes-314",
-      "name": "Tilda"
     },
     {
       "id": "heroes-299",
