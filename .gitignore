@@ -1,0 +1,2 @@
+# Source books stay local; only the cropped images are published.
+*.pdf
