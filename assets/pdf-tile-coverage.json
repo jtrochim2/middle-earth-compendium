@@ -31,6 +31,11 @@
       "squareTiles": 1
     },
     {
+      "book": "Supplied photo: Hill Tribes Chieftain",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
       "book": "Supplied photo: Mauhúr & Vraskû",
       "profiles": 2,
       "squareTiles": 2
@@ -41,8 +46,8 @@
       "squareTiles": 1
     }
   ],
-  "squareTiles": 444,
-  "updatedProfiles": 521,
+  "squareTiles": 445,
+  "updatedProfiles": 522,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-309",
@@ -79,10 +84,6 @@
     {
       "id": "heroes-150",
       "name": "Hera, Daughter of Helm"
-    },
-    {
-      "id": "heroes-156",
-      "name": "Hill Tribes Chieftain"
     },
     {
       "id": "heroes-243",

@@ -5,7 +5,8 @@ Requires pymupdf and Pillow. Run after import-profile-images.py:
   python3 scripts/import-pdf-tiles.py [--manifest assets/lotr-pdf-profile-tiles.json]
                                      [--pdf /path/to/source.pdf]
 A manifest with "sourceType": "image" crops a photo by pixel rectangles and has
-no page numbers. The source stays outside dist; only the crops are exported.
+no page numbers. A tile with "portraitOnly": true replaces only the thumbnail;
+run that manifest after the book that supplies the profile photo. The source stays outside dist; only the crops are exported.
 """
 import argparse
 import hashlib
@@ -53,6 +54,16 @@ def main():
         area = bounds if is_image else document[tile['page'] - 1].rect
         if not area.contains(rect) or abs(rect.width - rect.height) > .01:
             raise ValueError('Crop must be square and inside its page')
+        if tile.get('portraitOnly'):
+            # Replace only the list thumbnail; the profile photo stays as it is.
+            psize = manifest.get('portraitSize', 160)
+            portrait = matches[0]['id'] + '-thumb.jpg'
+            render(tile, rect, 4).resize((psize, psize), Image.Resampling.LANCZOS).save(
+                output / portrait, quality=90, optimize=True)
+            for p in matches:
+                p['portrait'] = 'images/pdf-tiles/' + portrait
+                p.pop('portraitCrop', None)
+            continue
         image = render(tile, rect, 2).resize((size, size), Image.Resampling.LANCZOS)
         filename = matches[0]['id'] + '.jpg'
         image.save(output / filename, quality=92, optimize=True)
