@@ -17,12 +17,12 @@
     },
     {
       "book": "Legacies of Middle-earth: Forces of Evil (2025)",
-      "profiles": 55,
-      "squareTiles": 52
+      "profiles": 53,
+      "squareTiles": 50
     },
     {
       "book": "Legacies of Middle-earth: Forces of Good (2025)",
-      "profiles": 23,
+      "profiles": 22,
       "squareTiles": 21
     },
     {
@@ -41,13 +41,43 @@
       "squareTiles": 2
     },
     {
+      "book": "Supplied photo: Mûmak War Leader",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
+      "book": "Supplied photo: The Dwimmerlaik & The Tainted",
+      "profiles": 2,
+      "squareTiles": 2
+    },
+    {
+      "book": "Supplied photo: War Mûmak of Harad",
+      "profiles": 2,
+      "squareTiles": 1
+    },
+    {
       "book": "Supplied photo: Yazneg",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
+      "book": "Warhammer Community: Fréaláf Hildeson and Olwyn (2025)",
+      "profiles": 3,
+      "squareTiles": 3
+    },
+    {
+      "book": "Warhammer Community: Héra, Daughter of Helm Hammerhand (2024)",
+      "profiles": 1,
+      "squareTiles": 1
+    },
+    {
+      "book": "Warhammer Community: King Helm and the first Middle-earth Journal (2025)",
       "profiles": 1,
       "squareTiles": 1
     }
   ],
-  "squareTiles": 445,
-  "updatedProfiles": 522,
+  "squareTiles": 452,
+  "updatedProfiles": 529,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-309",
@@ -70,20 +100,8 @@
       "name": "Corsair Ballista"
     },
     {
-      "id": "heroes-149",
-      "name": "Frealaf, First Marshal of the Riddermark"
-    },
-    {
       "id": "heroes-346",
       "name": "Gundabad Catapult Troll"
-    },
-    {
-      "id": "heroes-300",
-      "name": "Helm Hammerhand, King of Rohan"
-    },
-    {
-      "id": "heroes-150",
-      "name": "Hera, Daughter of Helm"
     },
     {
       "id": "heroes-243",
@@ -106,22 +124,6 @@
       "name": "King of Men (Rohan)"
     },
     {
-      "id": "heroes-153",
-      "name": "Lief, Page of Helm"
-    },
-    {
-      "id": "heroes-378",
-      "name": "Mumak"
-    },
-    {
-      "id": "heroes-374",
-      "name": "Mumak War Leader"
-    },
-    {
-      "id": "heroes-152",
-      "name": "Olwyn, Shieldmaiden of Rohan"
-    },
-    {
       "id": "heroes-313",
       "name": "Sigrid"
     },
@@ -136,10 +138,6 @@
     {
       "id": "heroes-314",
       "name": "Tilda"
-    },
-    {
-      "id": "heroes-377",
-      "name": "War Mumak of Harad"
     },
     {
       "id": "heroes-299",

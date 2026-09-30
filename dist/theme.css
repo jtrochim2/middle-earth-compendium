@@ -91,3 +91,5 @@ header .official{grid-column:3;grid-row:1;justify-self:end;margin-left:0}
 #army-nav .profile-match a>small{white-space:nowrap;text-align:right}
 #army-nav .profile-match a:hover{color:#181a1c}
 .sidebar-foot .fan-note{font-size:11px;line-height:1.6;margin-top:6px}
+/* Independent Heroes cannot take followers, so their warband is not a destination. */
+.warband-choice:disabled,.warband-choice:disabled:hover{opacity:.55;cursor:not-allowed;background:#f5f5f5;border-color:#e2e2e2}

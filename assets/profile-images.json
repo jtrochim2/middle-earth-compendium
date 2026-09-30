@@ -3055,20 +3055,6 @@
       "sha256": "89a2e7d0677a1504dec4356df16098b55aac3e2159852bd0592f3dec6bc840a4"
     },
     {
-      "profileName": "King's Champion Group",
-      "asset": "images/profiles/heroes-43.png",
-      "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/7bac8cf84613548e02923ff5dc1d31d071563c32/static-resources/images/profiles/Good%20Legacy/pictures/King%27s%20Champion.png",
-      "sourcePage": "https://github.com/avcordaro/mesbg-list-builder-v2024/blob/7bac8cf84613548e02923ff5dc1d31d071563c32/static-resources/images/profiles/Good%20Legacy/pictures/King%27s%20Champion.png",
-      "credit": "Image via MESBG List Builder community repository",
-      "rights": "Reuse permission not independently verified; source attribution retained.",
-      "alt": "King's Champion Group miniature",
-      "variant": "",
-      "reviewStatus": "identity-matched",
-      "matchMethod": "explicit-alias",
-      "sourceName": "King's Champion",
-      "sha256": "89a2e7d0677a1504dec4356df16098b55aac3e2159852bd0592f3dec6bc840a4"
-    },
-    {
       "profileName": "King's Huntsman",
       "asset": "images/profiles/heroes-52.png",
       "imageUrl": "https://raw.githubusercontent.com/avcordaro/mesbg-list-builder-v2024/7bac8cf84613548e02923ff5dc1d31d071563c32/static-resources/images/profiles/Good%20Legacy/pictures/King%27s%20Huntsman.png",

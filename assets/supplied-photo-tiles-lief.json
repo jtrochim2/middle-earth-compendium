@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/heroes-of-rohan-group.jpg",
+  "sourceTitle": "Warhammer Community: Fréaláf Hildeson and Olwyn (2025)",
+  "sourceSha256": "8df7d640fc74b0024410dea957731bd187963c5661f3aa18f2a8f411e01f91fb",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Lief, Page of Helm"
+      ],
+      "rect": [
+        432,
+        410,
+        712,
+        690
+      ],
+      "portraitRect": [
+        490,
+        422,
+        570,
+        502
+      ]
+    }
+  ]
+}

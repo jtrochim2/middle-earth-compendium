@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/helm.png",
+  "sourceTitle": "Warhammer Community: King Helm and the first Middle-earth Journal (2025)",
+  "sourceSha256": "af3f1f35057e1ce521b3bedb43e2c8e507967dbecb7ec53a76d8f0f32229b5e5",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Helm Hammerhand, King of Rohan"
+      ],
+      "rect": [
+        0,
+        0,
+        495,
+        495
+      ],
+      "portraitRect": [
+        227,
+        25,
+        347,
+        145
+      ]
+    }
+  ]
+}

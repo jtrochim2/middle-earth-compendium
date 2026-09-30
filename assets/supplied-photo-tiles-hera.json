@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/hera-group.jpg",
+  "sourceTitle": "Warhammer Community: Héra, Daughter of Helm Hammerhand (2024)",
+  "sourceSha256": "d64bb500b6f22a97b04e9a651a7f1d16d83a121875370f2a08dfa0baeb2417c1",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Hera, Daughter of Helm"
+      ],
+      "rect": [
+        70,
+        225,
+        410,
+        565
+      ],
+      "portraitRect": [
+        232,
+        229,
+        302,
+        299
+      ]
+    }
+  ]
+}

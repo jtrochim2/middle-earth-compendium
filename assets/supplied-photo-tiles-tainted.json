@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/tainted.png",
+  "sourceTitle": "Supplied photo: The Dwimmerlaik & The Tainted",
+  "sourceSha256": "44fa333ad9fc563f565edcbcd549405b1c2d4346e98c9d0da0ddfe96eaa36fb3",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "The Tainted"
+      ],
+      "rect": [
+        0,
+        0,
+        339,
+        339
+      ],
+      "portraitRect": [
+        128,
+        18,
+        238,
+        128
+      ]
+    }
+  ]
+}

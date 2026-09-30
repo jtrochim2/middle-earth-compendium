@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "image",
+  "sourceFile": "assets/supplied-photos/olwyn.png",
+  "sourceTitle": "Warhammer Community: Fréaláf Hildeson and Olwyn (2025)",
+  "sourceSha256": "7227eef626e5b58dc9ccd9cc01fa1edd5bffee03f12ed122259bd3329fe630d9",
+  "tileSize": 384,
+  "portraitSize": 160,
+  "tiles": [
+    {
+      "profileNames": [
+        "Olwyn, Shieldmaiden of Rohan"
+      ],
+      "rect": [
+        0,
+        0,
+        405,
+        405
+      ],
+      "portraitRect": [
+        159,
+        0,
+        269,
+        110
+      ]
+    }
+  ]
+}
