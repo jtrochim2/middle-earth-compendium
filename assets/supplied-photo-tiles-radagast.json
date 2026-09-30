@@ -2,14 +2,21 @@
   "schemaVersion": 1,
   "sourceType": "image",
   "sourceFile": "assets/supplied-photos/radagast-face.png",
-  "sourceTitle": "Supplied photo: Radagast",
+  "sourceTitle": "Official GW photo: Radagast",
   "sourceSha256": "6410c20aabdd12c05ad91d63bcfe374ebedf5c9bfb300b262528e649b2c6ac2b",
   "tileSize": 384,
   "portraitSize": 160,
   "tiles": [
     {
-      "profileNames": ["Radagast the Brown"],
-      "rect": [10, 10, 230, 230],
+      "profileNames": [
+        "Radagast the Brown"
+      ],
+      "rect": [
+        10,
+        10,
+        230,
+        230
+      ],
       "portraitOnly": true
     }
   ]

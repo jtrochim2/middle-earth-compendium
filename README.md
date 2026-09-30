@@ -1,4 +1,4 @@
-# Middle Earth Compendium
+# MESBG Army Book
 
 A browsable MESBG army and profile reference with a draft warband roster builder.
 

@@ -2,20 +2,44 @@
   "schemaVersion": 1,
   "sourceType": "image",
   "sourceFile": "assets/supplied-photos/mauhur-vrasku.png",
-  "sourceTitle": "Supplied photo: Mauhúr & Vraskû",
+  "sourceTitle": "Official GW photo: Mauhúr & Vraskû",
   "sourceSha256": "812d3d106899d681fdea5978fee341fa2e3d89a5cd587171abb1b2149baae615",
   "tileSize": 384,
   "portraitSize": 160,
   "tiles": [
     {
-      "profileNames": ["Mauhúr"],
-      "rect": [25, 210, 685, 870],
-      "portraitRect": [230, 262, 410, 442]
+      "profileNames": [
+        "Mauhúr"
+      ],
+      "rect": [
+        25,
+        210,
+        685,
+        870
+      ],
+      "portraitRect": [
+        230,
+        262,
+        410,
+        442
+      ]
     },
     {
-      "profileNames": ["Vraskû"],
-      "rect": [400, 70, 920, 590],
-      "portraitRect": [570, 79, 740, 249]
+      "profileNames": [
+        "Vraskû"
+      ],
+      "rect": [
+        400,
+        70,
+        920,
+        590
+      ],
+      "portraitRect": [
+        570,
+        79,
+        740,
+        249
+      ]
     }
   ]
 }
