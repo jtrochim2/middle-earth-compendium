@@ -191,3 +191,6 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
 .long-rule[open] summary{display:none}
 .equip-rules .long-rule summary{display:block;padding:0;margin:0;border:0;background:none;font:inherit;color:inherit;letter-spacing:0;text-transform:none}
 .equip-rules .long-rule[open] summary{display:none}
+/* "Must have one of the following options" groups. */
+.choose-one{margin:10px 0 2px;font-size:12px;font-weight:650;letter-spacing:.4px;color:#181a1c}
+.equipment-option.in-required-group{padding-left:10px;border-left:2px solid #fbca1b}
