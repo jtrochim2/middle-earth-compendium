@@ -197,3 +197,25 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
 /* Profile list grouped by heroic tier. */
 #unit-list .tier-heading{font:600 12px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:#4f4f4f;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid #e2e2e2}
 #unit-list .tier-heading:first-child{margin-top:4px}
+/* Army rules: additional (list-building) rules and the army's special rules. */
+.army-rules{margin:12px 0 4px;border:1px solid #e2e2e2;border-radius:4px;background:#fff}
+.army-rules>summary{cursor:pointer;list-style:none;padding:12px 16px;font-weight:650;font-size:14px;color:#181a1c;display:flex;justify-content:space-between;gap:12px}
+.army-rules>summary::-webkit-details-marker{display:none}
+.army-rules>summary::after{content:'+';font-weight:300;font-size:20px;line-height:1}
+.army-rules[open]>summary::after{content:'−'}
+.army-rules>summary span{margin-right:auto;margin-left:10px;font-weight:400;font-size:12px;color:#4f4f4f;align-self:center}
+#army-rules-body{padding:0 16px 14px;font-size:14px;color:#4f4f4f}
+#army-rules-body h4,.print-army-rules h4{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#181a1c;margin:12px 0 6px}
+.army-additional{margin:0;padding-left:18px}
+.army-additional li{margin:3px 0}
+.army-special{margin:0}
+.army-special dt{font-weight:650;color:#181a1c;margin-top:8px}
+.army-special dd{margin:2px 0 0}
+.print-army-rules .army-additional,.print-army-rules .army-special{font-size:11.5px}
+.print-army-rules{break-inside:auto}
+/* Army rules stand out in the site's yellow accent. */
+.army-rules{background:#fff8dc;border:1px solid #f3dc8a;border-left:4px solid #fbca1b}
+.army-rules>summary{color:#181a1c}
+.army-rules>summary span{color:#5c4a00}
+.army-rules[open]>summary{border-bottom:1px solid #f3dc8a}
+#army-rules-body{background:#fffdf3;padding-top:4px;border-radius:0 0 4px 0}

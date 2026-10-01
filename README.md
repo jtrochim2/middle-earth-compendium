@@ -10,6 +10,10 @@ After pushing the repository, open **Settings → Pages** and set **Build and de
 
 The site's HTML, CSS, JavaScript, profile data, and images are under `dist/`. The roster draft is stored in browser session storage.
 
+## Army rules
+
+Each army in `dist/data.json` carries `additionalRules` (list-building restrictions, such as "Only a maximum of 33% of the models in this Army may have the Lothlorien keyword") and `armyRules` (the army's special rules with their text), copied from the Now For Wrath dataset's factions and army bonuses. They are shown in a collapsible *Army rules* section on each army page and at the start of the rules pages of the printable roster. The additional rules are shown, not enforced.
+
 ## Printing a roster
 
 **Print roster** (in the roster panel) opens a printable view: a card per selection grouped by warband, with characteristics including chosen equipment, then the text of every special rule the roster uses and which models have it. Use **Print** there, or the browser's own Print (Ctrl/Cmd+P) — the print stylesheet prints only the roster, two cards per row on A4. Photos and the rules section can be switched off. Rule text comes from the Now For Wrath dataset's keyword definitions (`rules` in `dist/data.json`); heroic actions and a few army-specific rules have no text there and are listed by name only.
