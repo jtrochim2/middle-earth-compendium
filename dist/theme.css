@@ -219,3 +219,12 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
 .army-rules>summary span{color:#5c4a00}
 .army-rules[open]>summary{border-bottom:1px solid #f3dc8a}
 #army-rules-body{background:#fffdf3;padding-top:4px;border-radius:0 0 4px 0}
+/* Header roster link: one line everywhere; a shorter label on phones. */
+header .official{display:inline-flex;align-items:center;white-space:nowrap;max-width:none;text-align:right;line-height:1}
+header .official .roster-short{display:none}
+@media(max-width:480px){
+  header .official{max-width:none;font-size:13px}
+  header .official .roster-long{display:none}
+  header .official .roster-short{display:inline}
+  header .official #header-count{margin-left:6px;min-width:22px;text-align:center}
+}
