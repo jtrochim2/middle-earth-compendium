@@ -46,6 +46,7 @@ The same importer also crops single photos: `assets/supplied-photo-tiles.json` (
 
 `dist/data.json` comes from the Now For Wrath dataset. Where it disagrees with the printed books and the July 2026 FAQs, the book value is used and recorded here, so the fixes can be re-applied after a data refresh:
 
+- Army-specific compulsory upgrades: the Now For Wrath dataset stores some on the army (`factions[].requiredChildren`) rather than on the profile, and the original import kept only the profile ones. 19 were added to `requiredOptions` — e.g. Théoden must take heavy armour in Defenders of Helm's Deep (80 points), heavy armour, shield and Snowmane with armour in Ride Out and Riders of Théoden (110), Snowmane in Road to Helm's Deep (95); Éomer's shield and Firefoot with armour in Riders of Éomer (140); Bard's armour and horse in Survivors of Lake-town (150). Every "WITH …" cost in the army lists now matches the builder's minimum cost.
 - Sauron, the Necromancer (both entries): Shoot 4+, not 6+ (*Armies of The Hobbit*, p. 128; no errata changes it).
 - The Goblin Scribe: Shoot 6+, not 5+ (*Armies of The Hobbit*, p. 137).
 - King's Champion: one 140-point entry (the Champion and two Heralds, *Legacies of Middle-earth: Forces of Good*, p. 16) in Kingdom of Khazad-dûm and Reclamation of Moria. The source's 0-point King's Champion and stat-less King's Champion Group entries are merged into it.
