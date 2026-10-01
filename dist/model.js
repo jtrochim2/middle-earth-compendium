@@ -21,5 +21,17 @@ function migrate(old,data){const r={name:old?.name||'Untitled roster',limit:old?
 function withoutLegacy(data){const armies=data.armies.filter(a=>!a.legacy),ids=new Set(armies.map(a=>a.id));const profiles=data.profiles.filter(p=>!p.legacy).map(p=>({...p,armies:p.armies.filter(x=>ids.has(x.army))})).filter(p=>p.armies.length);return {...data,armies,profiles};}
 // Remove roster entries whose profile or army is no longer available.
 function prune(r,data){const ids=new Set(data.profiles.map(p=>p.id));if(r.army&&!data.armies.some(a=>a.id===r.army))return migrate(null,data);let removed=0;r.warbands=r.warbands.filter(w=>{if(!ids.has(w.hero.profile)){removed+=1+w.entries.length;return false;}const n=w.entries.length;w.entries=w.entries.filter(e=>ids.has(e.profile));removed+=n-w.entries.length;return true;});const n=r.unassigned.length;r.unassigned=r.unassigned.filter(e=>ids.has(e.profile));removed+=n-r.unassigned.length;if(!r.warbands.some(w=>w.id===r.active))r.active=r.warbands[0]?.id||null;if(!allEntries(r).length)r.army=null;return r;}
-root.RosterModel={membership,availableOptions,requiredOptions,configuration,addEntry,total,allEntries,warriorCount,capacity,independent,move,removeWarband,migrate,withoutLegacy,prune};
+// Equipment effects on characteristics, from data.gear (stat modifiers and mount profiles).
+const BOW=/\b(bow|crossbow|longbow)s?\b/i;
+function gearEffect(name,data){const G=data.gear||{},n=name.trim().toLowerCase();if(G[n])return {mods:G[n].mods||[],mount:G[n].mount?{name:G[n].name,stats:G[n].mount}:null};
+let m=n.match(/^(?:exchange|swap|replace)\s+(.+?)\s+(?:for|with)\s+(.+)$/);if(m){const out=gearEffect(m[2],data),lost=gearEffect(m[1],data);return {mods:[...out.mods,...lost.mods.map(x=>({...x,by:-x.by}))],mount:out.mount};}
+m=n.match(/^upgrade\s+.+?\s+to\s+(.+)$/);if(m)return gearEffect(m[1],data);
+const parts=n.split(/\s*(?:,|&|\band\b)\s*/).filter(Boolean);if(parts.length<2)return {mods:[],mount:null};
+const all=parts.map(x=>gearEffect(x,data));return {mods:all.flatMap(x=>x.mods),mount:all.find(x=>x.mount)?.mount||null};}
+function effectiveStats(p,a,ids,data){const c=configuration(p,a,ids),stats={...p.stats},changed={};let mount=null;
+const names=c.options.map(o=>o.name),gives=names.filter(n=>/^(exchange|swap|replace)\b/i.test(n));
+const bow=([...p.wargear,...names.filter(n=>!gives.includes(n))].some(n=>BOW.test(n))||gives.some(n=>BOW.test(n.split(/\s(?:for|with)\s/i)[1]||'')))&&!gives.some(n=>BOW.test(n.split(/\s(?:for|with)\s/i)[0]));
+for(const n of names){const e=gearEffect(n,data);if(e.mount)mount=e.mount;for(const x of e.mods){if(x.cancelledByBow&&bow&&!(p.rules||[]).includes(x.unlessRule))continue;if(typeof stats[x.stat]!=='number')continue;stats[x.stat]+=x.by;changed[x.stat]=(changed[x.stat]||0)+x.by;}}
+for(const k of Object.keys(changed))if(!changed[k])delete changed[k];return {stats,changed,mount};}
+root.RosterModel={membership,availableOptions,requiredOptions,configuration,addEntry,total,allEntries,warriorCount,capacity,independent,move,removeWarband,migrate,withoutLegacy,prune,gearEffect,effectiveStats};
 })(typeof window==='undefined'?globalThis:window);

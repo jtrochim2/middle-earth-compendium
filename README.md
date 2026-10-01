@@ -10,6 +10,10 @@ After pushing the repository, open **Settings → Pages** and set **Build and de
 
 The site's HTML, CSS, JavaScript, profile data, and images are under `dist/`. The roster draft is stored in browser session storage.
 
+## Printing a roster
+
+**Print roster** (in the roster panel) opens a printable view: a card per selection grouped by warband, with characteristics including chosen equipment, then the text of every special rule the roster uses and which models have it. Use **Print** there, or the browser's own Print (Ctrl/Cmd+P) — the print stylesheet prints only the roster, two cards per row on A4. Photos and the rules section can be switched off. Rule text comes from the Now For Wrath dataset's keyword definitions (`rules` in `dist/data.json`); heroic actions and a few army-specific rules have no text there and are listed by name only.
+
 ## Legacy models
 
 Models from *Legacies of Middle-earth* are not supported. On load, `RosterModel.withoutLegacy` (in `dist/model.js`) drops Legacy armies, Legacy profiles and any membership in a Legacy army, and saved roster drafts are pruned of entries that are no longer available. The Legacy records stay in `dist/data.json` so the photo importers keep working; removing that one call brings them back.
@@ -45,3 +49,4 @@ The same importer also crops single photos: `assets/supplied-photo-tiles.json` (
 - Sauron, the Necromancer (both entries): Shoot 4+, not 6+ (*Armies of The Hobbit*, p. 128; no errata changes it).
 - The Goblin Scribe: Shoot 6+, not 5+ (*Armies of The Hobbit*, p. 137).
 - King's Champion: one 140-point entry (the Champion and two Heralds, *Legacies of Middle-earth: Forces of Good*, p. 16) in Kingdom of Khazad-dûm and Reclamation of Moria. The source's 0-point King's Champion and stat-less King's Champion Group entries are merged into it.
+- `gear` (added): stat modifiers and mount profiles for equipment options, taken from the Now For Wrath dataset's gear list. `RosterModel.effectiveStats` applies them to a profile's characteristics, including combined and exchange options ("Shield and spear", "Exchange armour for heavy armour") and the rule that a shield gives no Defence bonus to a model with a bow unless it has Expert Rider.
