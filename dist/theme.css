@@ -62,7 +62,7 @@ header a:focus-visible,header button:focus-visible{outline-color:#fbca1b}
 header .brand{display:flex;align-items:center;min-width:0;flex:none}
 header .brand img{display:block;width:auto;height:58px;max-width:100%}
 @media(max-width:650px){header .brand img{height:38px}}
-@media(max-width:480px){header .brand{flex:1;min-width:0}header .brand img{width:min(190px,100%);height:auto;aspect-ratio:561/112}}
+@media(max-width:480px){header .brand{flex:1;min-width:0}header .brand img{width:min(190px,100%);height:auto;aspect-ratio:512/116}}
 
 /* Preserve full miniature portraits and explicitly selected source regions. */
 .profile-card .unit-thumbnail{object-fit:contain;flex-shrink:0;border-radius:0}
