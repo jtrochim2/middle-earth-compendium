@@ -194,3 +194,6 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
 /* "Must have one of the following options" groups. */
 .choose-one{margin:10px 0 2px;font-size:12px;font-weight:650;letter-spacing:.4px;color:#181a1c}
 .equipment-option.in-required-group{padding-left:10px;border-left:2px solid #fbca1b}
+/* Profile list grouped by heroic tier. */
+#unit-list .tier-heading{font:600 12px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:#4f4f4f;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid #e2e2e2}
+#unit-list .tier-heading:first-child{margin-top:4px}
