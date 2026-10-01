@@ -165,3 +165,18 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
   .print-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
   .print-card,.print-stats td.changed{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+/* The roster is named after its army. */
+#roster-army.roster-army-name{font:22px/1.25 Georgia,serif;color:#181a1c;margin:14px 0 18px}
+#roster-army.roster-army-name.empty{font-size:15px;color:#4f4f4f;font-style:italic}
+/* Mobile: 16px inputs stop iOS zooming in; while searching, the sidebar fills the visible area above the keyboard. */
+.search-done{display:none}
+@media(max-width:800px){
+  .search input,#profile-search,#points-limit{font-size:16px}
+  .sidebar{width:min(360px,100vw);height:calc(var(--vvh,100dvh) - 72px);bottom:auto;overscroll-behavior:contain}
+  .sidebar.searching{top:var(--vvtop,0px);height:var(--vvh,100dvh);width:100vw;z-index:40;padding:12px 14px 0;overflow:hidden}
+  .sidebar.searching .library-label,.sidebar.searching .side-filters,.sidebar.searching .sidebar-foot{display:none}
+  .sidebar.searching .search{flex:none}
+  .sidebar.searching .search-done{display:block;flex:none;border:0;background:none;color:#181a1c;font:600 15px/1 inherit;padding:6px 2px 6px 8px;cursor:pointer}
+  .sidebar.searching #army-nav{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;margin:8px -14px 0;padding:0 14px 16px}
+  #army-nav a{padding-top:11px;padding-bottom:11px}
+}
