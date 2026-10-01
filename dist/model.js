@@ -26,12 +26,23 @@ const BOW=/\b(bow|crossbow|longbow)s?\b/i;
 function gearEffect(name,data){const G=data.gear||{},n=name.trim().toLowerCase();if(G[n])return {mods:G[n].mods||[],mount:G[n].mount?{name:G[n].name,stats:G[n].mount}:null};
 let m=n.match(/^(?:exchange|swap|replace)\s+(.+?)\s+(?:for|with)\s+(.+)$/);if(m){const out=gearEffect(m[2],data),lost=gearEffect(m[1],data);return {mods:[...out.mods,...lost.mods.map(x=>({...x,by:-x.by}))],mount:out.mount};}
 m=n.match(/^upgrade\s+.+?\s+to\s+(.+)$/);if(m)return gearEffect(m[1],data);
-const parts=n.split(/\s*(?:,|&|\band\b)\s*/).filter(Boolean);if(parts.length<2)return {mods:[],mount:null};
+const parts=n.split(/\s*(?:,|&|(?<![\w-])and(?![\w-]))\s*/).filter(Boolean);if(parts.length<2)return {mods:[],mount:null};
 const all=parts.map(x=>gearEffect(x,data));return {mods:all.flatMap(x=>x.mods),mount:all.find(x=>x.mount)?.mount||null};}
 function effectiveStats(p,a,ids,data){const c=configuration(p,a,ids),stats={...p.stats},changed={};let mount=null;
-const names=c.options.map(o=>o.name),gives=names.filter(n=>/^(exchange|swap|replace)\b/i.test(n));
-const bow=([...p.wargear,...names.filter(n=>!gives.includes(n))].some(n=>BOW.test(n))||gives.some(n=>BOW.test(n.split(/\s(?:for|with)\s/i)[1]||'')))&&!gives.some(n=>BOW.test(n.split(/\s(?:for|with)\s/i)[0]));
-for(const n of names){const e=gearEffect(n,data);if(e.mount)mount=e.mount;for(const x of e.mods){if(x.cancelledByBow&&bow&&!(p.rules||[]).includes(x.unlessRule))continue;if(typeof stats[x.stat]!=='number')continue;stats[x.stat]+=x.by;changed[x.stat]=(changed[x.stat]||0)+x.by;}}
+const names=c.options.map(o=>o.name),gives=names.filter(n=>/^(exchange|swap|replace)\b/i.test(n)),given=n=>n.split(/\s(?:for|with)\s/i),
+carried=[...p.wargear,...names.filter(n=>!gives.includes(n)),...gives.map(n=>given(n)[1]||'')].filter(n=>!gives.some(g=>new RegExp('\\b'+given(g)[0].replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(n)&&!given(g)[1]?.includes(n))),
+has={bow:carried.some(n=>BOW.test(n)),'two-handed':carried.some(n=>/two[- ]handed|mattock/i.test(n)&&!/hand-and-a-half/i.test(n)),pike:carried.some(n=>/\bpikes?\b/i.test(n))};
+for(const n of names){const e=gearEffect(n,data);if(e.mount)mount=e.mount;for(const x of e.mods){const by=(x.cancelledBy||(x.cancelledByBow?['bow']:[])).filter(t=>has[t]&&!(t==='bow'&&(p.rules||[]).includes(x.unlessRule)));if(by.length&&x.by>0)continue;if(typeof stats[x.stat]!=='number')continue;stats[x.stat]+=x.by;changed[x.stat]=(changed[x.stat]||0)+x.by;}}
 for(const k of Object.keys(changed))if(!changed[k])delete changed[k];return {stats,changed,mount};}
-root.RosterModel={membership,availableOptions,requiredOptions,configuration,addEntry,total,allEntries,warriorCount,capacity,independent,move,removeWarband,migrate,withoutLegacy,prune,gearEffect,effectiveStats};
+// Rules text for a piece of equipment; combined and exchange options resolve to the parts they give.
+function gearText(name,data){const G=data.gear||{},n=name.trim().toLowerCase(),get=k=>G[k]?.text?[{name:G[k].name,text:G[k].text}]:[];const hit=get(n).length?get(n):get(n.replace(/\s*\(.*\)$/,''));if(hit.length)return hit;
+let m=n.match(/^(?:exchange|swap|replace)\s+.+?\s+(?:for|with)\s+(.+)$/)||n.match(/^upgrade\s+.+?\s+to\s+(.+)$/);if(m)return gearText(m[1],data);
+const parts=n.split(/\s*(?:,|&|(?<![\w-])and(?![\w-]))\s*/).filter(Boolean);if(parts.length>1&&!/\(/.test(n))return parts.flatMap(x=>gearText(x,data));
+// Generic types (Rules Manual): "Elven-made hand-and-a-half sword", "Claws and teeth (hand weapons)", "Cleaver (counts as a sword)".
+const out=[],melee=/\b(sword|axe|mace|blade|dagger|cleaver|club|hammer|fork|knife|hand weapons?)\b/;
+if(/hand-and-a-half/.test(n))out.push(...get('hand-and-a-half weapon'));else if(/two[- ]handed/.test(n))out.push(...get('two-handed weapon'));else if(/\bspear\b/.test(n)&&!/throwing/.test(n))out.push(...get('spear'));else if(melee.test(n))out.push(...get('hand weapon'));
+if(out.length&&/\belf|\belven/.test(n))out.push(...get('elven weapon'));if(/master-forged/.test(n))out.push(...get('master-forged'));
+if(/mithril/.test(n)&&!out.length)out.push(...get('mithril armour'));return out;}
+function equipmentRules(p,a,ids,data){const c=configuration(p,a,ids),seen=new Set(),out=[];for(const n of [...p.wargear,...c.options.map(o=>o.name)])for(const r of gearText(n,data))if(!seen.has(r.name.toLowerCase())){seen.add(r.name.toLowerCase());out.push(r);}return out;}
+root.RosterModel={membership,availableOptions,requiredOptions,configuration,addEntry,total,allEntries,warriorCount,capacity,independent,move,removeWarband,migrate,withoutLegacy,prune,gearEffect,effectiveStats,gearText,equipmentRules};
 })(typeof window==='undefined'?globalThis:window);

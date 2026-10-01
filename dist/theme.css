@@ -180,3 +180,14 @@ body.printing>*:not(#print-view):not(#toast){display:none!important}
   .sidebar.searching #army-nav{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;margin:8px -14px 0;padding:0 14px 16px}
   #army-nav a{padding-top:11px;padding-bottom:11px}
 }
+/* Equipment rules in the profile details. */
+.equip-rules dl{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:4px 12px;margin:0 0 14px;font-size:13px}
+.equip-rules dt{font-weight:650;color:#181a1c}
+.equip-rules dd{margin:0;color:#4f4f4f}
+@media(max-width:480px){.equip-rules dl{grid-template-columns:1fr}.equip-rules dd{margin-bottom:6px}}
+.long-rule summary{list-style:none;cursor:pointer}
+.long-rule summary::-webkit-details-marker{display:none}
+.long-rule summary span{font-weight:650;color:#181a1c;text-decoration:underline;text-underline-offset:3px}
+.long-rule[open] summary{display:none}
+.equip-rules .long-rule summary{display:block;padding:0;margin:0;border:0;background:none;font:inherit;color:inherit;letter-spacing:0;text-transform:none}
+.equip-rules .long-rule[open] summary{display:none}
