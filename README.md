@@ -10,6 +10,12 @@ After pushing the repository, open **Settings → Pages** and set **Build and de
 
 The site's HTML, CSS, JavaScript, profile data, and images are under `dist/`. The roster draft is stored in browser session storage.
 
+## Rule tooltips
+
+In a profile's details, heroic actions and special rules are underlined; hovering (or keyboard focus) shows their text in a tooltip, and on touch screens a tap toggles it. Text comes from `rules` in `dist/data.json`: special rules from the Now For Wrath dataset, heroic actions as short summaries of the *Rules Manual* (2024, pp. 82–86). Names are matched ignoring capitalisation; a name with no rule entry falls back to the equipment text in `gear` (for items such as "Durin's Axe" that profiles list as special rules). A bracketed rule without its own entry, such as "Leader (Khazad Guard)", uses another entry of the same rule, whose wording is generic. Names with no text are shown without underline.
+
+Rule texts were checked against Tabletop Admiral's MESBG builder (dataset version 2026.09.30). Entries added or corrected from it: "Goldberry is waiting" (typos fixed), and the texts of eight rules missing from the import — "Barliman Butterbur, At Your Service", "It has not yet Awoken", "The Shipwright's power", "I Shall Kill You if You Touch Him", "The Time of the Orc has Come", "There is Always Hope", "Da! Down Here!" and "A Fell Light is in Them". "Bone-breakers" (Razgush's profile) is the dataset's misspelling of his Bone-breaker weapon and uses its text.
+
 ## Army rules
 
 Each army in `dist/data.json` carries `additionalRules` (list-building restrictions, such as "Only a maximum of 33% of the models in this Army may have the Lothlorien keyword") and `armyRules` (the army's special rules with their text), copied from the Now For Wrath dataset's factions and army bonuses. They are shown in a collapsible *Army rules* section on each army page and at the start of the rules pages of the printable roster. The additional rules are shown, not enforced.

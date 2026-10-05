@@ -228,3 +228,13 @@ header .official .roster-short{display:none}
   header .official .roster-short{display:inline}
   header .official #header-count{margin-left:6px;min-width:22px;text-align:center}
 }
+/* Rule names with tooltips (heroic actions, special rule index). */
+.rule-term{font:inherit;color:#181a1c;background:none;border:0;padding:0;margin:0;cursor:help;text-decoration:underline dotted #8a8a8a;text-underline-offset:3px;text-align:left}
+.rule-term:hover,.rule-term:focus-visible{text-decoration-color:#fbca1b;text-decoration-style:solid;outline:none}
+.rule-term.plain{cursor:default;text-decoration:none;color:inherit}
+.rule-sep{color:#8a8a8a}
+#rule-tip{position:absolute;z-index:60;background:#181a1c;color:#fff;border-radius:6px;padding:10px 12px;box-shadow:0 8px 24px #181a1c40;font-size:13px;line-height:1.45;pointer-events:none}
+#rule-tip strong{display:block;color:#fbca1b;font-size:12px;letter-spacing:.3px;margin-bottom:3px}
+#rule-tip span{display:block}
+@media(hover:none){#rule-tip{pointer-events:auto}}
+@media print{#rule-tip{display:none!important}}
