@@ -238,3 +238,6 @@ header .official .roster-short{display:none}
 #rule-tip span{display:block}
 @media(hover:none){#rule-tip{pointer-events:auto}}
 @media print{#rule-tip{display:none!important}}
+/* Very wide screens: roster panel on the right edge, profile column centred at its previous maximum width. */
+.layout{max-width:none}
+main{width:100%;max-width:1470px;justify-self:center;box-sizing:border-box}
