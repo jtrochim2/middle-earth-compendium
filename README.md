@@ -4,11 +4,17 @@ A browsable MESBG army and profile reference with a draft warband roster builder
 
 ## GitHub Pages
 
-The complete static site lives in `dist/`. The workflow in `.github/workflows/pages.yml` publishes this folder when commits reach `main`. There is no build step or package installation.
+The site's source lives in `dist/`. The workflow in `.github/workflows/pages.yml` runs `node scripts/prerender.mjs` when commits reach `main` and publishes the resulting `site/` folder. There is no package installation; the script needs Node and Google Chrome (both preinstalled on GitHub's runners).
 
-After pushing the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The deployment will then be available at `https://<owner>.github.io/<repository>/` (or at the repository's Pages URL shown in Settings). You can run **Publish GitHub Pages** manually from the Actions tab if the first push preceded the Pages setting.
+After pushing the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The site is served at **https://mesbgarmybook.com**, the custom domain set in those Pages settings. It must stay at the root of a domain: pages and assets use root-relative paths (`/army/…`, `/data.json`), so a `https://<owner>.github.io/<repository>/` URL would not work. You can run **Publish GitHub Pages** manually from the Actions tab if the first push preceded the Pages setting.
 
 The site's HTML, CSS, JavaScript, profile data, and images are under `dist/`. The roster draft is stored in browser session storage.
+
+## Army pages and search engines
+
+Each army has its own URL, `/army/<army id>/`, and a profile is linked by its name within that page, as in `/army/army-of-lake-town/#bard-the-bowman`. Where a warrior shares a hero's name in the same army, the warrior's anchor gets a suffix (`#troll-brute-warrior`). Old links using profile ids (`/#army-of-lake-town/heroes-311`, `/army/army-of-lake-town/#heroes-311`) are rewritten to these. Profile portraits carry the profile's name as alt text (for image search) and are hidden from screen readers, which read the name from the heading next to them. Moving between armies changes the URL without reloading the page.
+
+`scripts/prerender.mjs` copies `dist/` to `site/` (git-ignored), then loads the home page and every army page (Legacy armies excluded, as in the app) in headless Chrome and saves the rendered HTML, so search engines and link previews see the full content without running JavaScript. Each page gets its own description, a canonical URL, Open Graph tags and breadcrumb structured data. The script also writes `sitemap.xml` and a `404.html` (the plain app, marked `noindex`); `robots.txt` is in `dist/`. The build fails if a page renders an error or the wrong army. To preview the published site, run the script and serve `site/` (for example `python3 -m http.server -d site`). Serving `dist/` directly still works for development, but only the home page URL exists there.
 
 ## Rule tooltips
 

@@ -1,2 +1,5 @@
 # Source books stay local; only the cropped images are published.
 *.pdf
+
+# Built by scripts/prerender.mjs; published by the Pages workflow.
+site/
