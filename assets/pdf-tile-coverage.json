@@ -12,8 +12,8 @@
     },
     {
       "book": "Armies of The Lord of the Rings (2024)",
-      "profiles": 168,
-      "squareTiles": 139
+      "profiles": 173,
+      "squareTiles": 143
     },
     {
       "book": "Legacies of Middle-earth: Forces of Evil (2025)",
@@ -106,8 +106,8 @@
       "squareTiles": 1
     }
   ],
-  "squareTiles": 459,
-  "updatedProfiles": 536,
+  "squareTiles": 463,
+  "updatedProfiles": 541,
   "profilesNeedingOtherSources": [
     {
       "id": "heroes-358",
@@ -116,26 +116,6 @@
     {
       "id": "heroes-359",
       "name": "Beorn the Bear"
-    },
-    {
-      "id": "heroes-243",
-      "name": "King of Men (Arnor)"
-    },
-    {
-      "id": "heroes-244",
-      "name": "King of Men (Dale)"
-    },
-    {
-      "id": "heroes-241",
-      "name": "King of Men (Gondor)"
-    },
-    {
-      "id": "heroes-245",
-      "name": "King of Men (Numenor)"
-    },
-    {
-      "id": "heroes-242",
-      "name": "King of Men (Rohan)"
     },
     {
       "id": "heroes-162",

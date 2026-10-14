@@ -1471,6 +1471,83 @@
     },
     {
       "profileNames": [
+        "King of Men (Arnor)"
+      ],
+      "page": 136,
+      "printedPage": 135,
+      "rect": [
+        105.5,
+        147,
+        215.5,
+        257
+      ],
+      "portraitRect": [
+        140,
+        155,
+        180,
+        195
+      ]
+    },
+    {
+      "profileNames": [
+        "King of Men (Rohan)"
+      ],
+      "page": 136,
+      "printedPage": 135,
+      "rect": [
+        178,
+        112,
+        288,
+        222
+      ],
+      "portraitRect": [
+        220.5,
+        120,
+        260.5,
+        160
+      ]
+    },
+    {
+      "profileNames": [
+        "King of Men (Dale)"
+      ],
+      "page": 136,
+      "printedPage": 135,
+      "rect": [
+        258,
+        134.5,
+        368,
+        244.5
+      ],
+      "portraitRect": [
+        300.5,
+        142,
+        340.5,
+        182
+      ]
+    },
+    {
+      "profileNames": [
+        "King of Men (Gondor)",
+        "King of Men (Numenor)"
+      ],
+      "page": 136,
+      "printedPage": 135,
+      "rect": [
+        345.5,
+        122,
+        455.5,
+        232
+      ],
+      "portraitRect": [
+        380.5,
+        133,
+        420.5,
+        173
+      ]
+    },
+    {
+      "profileNames": [
         "The Dark Lord Sauron"
       ],
       "page": 140,

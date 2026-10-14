@@ -16,7 +16,7 @@ const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const dist = path.join(root, 'dist'), out = path.join(root, 'site');
 const require = createRequire(import.meta.url);
 require(path.join(dist, 'model.js'));
-const data = globalThis.RosterModel.withoutLegacy(require(path.join(dist, 'data.json')));
+const data = globalThis.RosterModel.withoutLegacyArmies(require(path.join(dist, 'data.json')));
 
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const armyProfiles = a => data.profiles.filter(p => p.armies.some(x => x.army === a.id));
